@@ -12,4 +12,4 @@ Red: https://myanimelist.net/animelist/Insanitium?status=7
 
 Blue: https://myanimelist.net/mangalist/Insanitium?status=7
 
-Orange: https://myanimelist.net/animelist/TheBatman11?status=7 (It's my friend's list and he may tweak or break the colour scheme without warning.)
+Orange: https://myanimelist.net/animelist/TheBatman11?status=7 (It's my friend's list and he may tweak or break the colour scheme without a warning. I'll replace the styles I'm not using with screenshots eventually.)
