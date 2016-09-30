@@ -40,7 +40,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url(/img/pc/ownlist/icon_pulldown_triangle.png);
+    background-image: url(https://myanimelist.net/img/pc/ownlist/icon_pulldown_triangle.png);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 18px 8px;
@@ -58,7 +58,7 @@
 }
 
 #advanced-options select:disabled {
-    background-image: url(/img/pc/ownlist/icon_pulldown_triangle_disable.png);
+    background-image: url(https://myanimelist.net/img/pc/ownlist/icon_pulldown_triangle_disable.png);
     color: #9B9B9B;
 }
 
@@ -883,7 +883,7 @@ content: " Theme by Insanitium.";
  */
 
 .list-table .list-table-header .header-title {
-    background: rgba(30,30,30,1) url("/img/pc/ownlist/bar-table-header-dark.png") no-repeat right 7px / 1px 22px;
+    background: rgba(30,30,30,1) url("https://myanimelist.net/img/pc/ownlist/bar-table-header-dark.png") no-repeat right 7px / 1px 22px;
     display: table-cell;
     height: 24px;
     border-bottom: rgb(30,30,30) 0px solid;
