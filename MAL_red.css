@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 #advanced-options {
     position: absolute;
@@ -18,7 +19,7 @@
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
     color: #F6F6F6;
     text-align: left;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Titillium Web', 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
     z-index: 1101;
 }
 #advanced-options .advanced-options-header {
