@@ -708,7 +708,7 @@ content: " Theme by Insanitium.";
     text-align: center;
     vertical-align: middle;
     font-size: 1.5em;
-    color: #fff; //rgb(0,100,255);
+    color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
   color: rgb(0,100,255);
