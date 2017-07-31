@@ -757,7 +757,7 @@ content: " Theme by Insanitium.";
     display: inline-block;
     height: 22px;
     margin-top: 15px;
-    color: #fff; //rgb(200, 0, 0);
+    color: #fff;
     font-size: 1.6em;
     vertical-align: middle;
 }
@@ -811,7 +811,7 @@ content: " Theme by Insanitium.";
 .list-unit .list-status-title {
     position: relative;
     display: table;
-    background-color: rgba(30,30,30,0.9); //rgba(200, 0, 0, 0.8);
+    background-color: rgba(30,30,30,0.9);
     width: 1024px;
     height: 38px;
     border-left: 0px solid rgb(30,30,30) !important;
@@ -848,7 +848,7 @@ content: " Theme by Insanitium.";
 
 .list-unit .list-stats {
     display: none;
-    background-color: rgba(30,30,30,0.9); //rgba(200, 0, 0, 0.8);
+    background-color: rgba(30,30,30,0.9);
     width: 1024px;
     height: 30px;
     line-height: 30px;
@@ -866,7 +866,6 @@ content: " Theme by Insanitium.";
     margin: 0 auto;
     border-collapse: collapse;
     border: rgb(30,30,30) 0px solid;
-    //background-color: rgba(30,30,30,0.8);
     font-size: 14px;
 }
 
@@ -967,14 +966,14 @@ content: " Theme by Insanitium.";
 
 .list-table .list-table-header .header-title .link {
     font-size: 14px;
-    color: rgb(200, 0, 0);
+    color: #fff;
     text-decoration: none
 }
 
 .list-table .list-table-header .header-title .link.sort {
     position: relative;
     display: inline-block;
-    color: #fff; //rgb(200, 0, 0);
+    color: #fff;
     white-space: nowrap;
     -moz-transition-property: all;
     -o-transition-property: all;
