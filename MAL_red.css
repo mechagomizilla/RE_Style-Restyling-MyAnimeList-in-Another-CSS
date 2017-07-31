@@ -192,7 +192,7 @@
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: rgba(200, 0, 0, 0.8);
+    background-color: rgba(140, 20, 20, 0.8);
     display: inline-block;
     width: 135px;
     margin: 0 4px;
@@ -217,7 +217,7 @@
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-  background-color: rgba(255, 150, 0, 0.8);
+  background-color: rgba(200, 0, 0, 0.8);
 }
 
 
