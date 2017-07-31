@@ -6,10 +6,8 @@ Of course, remember to replace [colour] by an available colour from this reposit
 
 PS: These themes do not currently work on the white theme templates. It does work on the default and dark themes. I might eventually work on overriding the white theme overrides that make them incompatible, but it's far from a priority.
 
-Here are some examples of the styles "in action":
+Screenshots: [Red](http://i.imgur.com/JMPvV9I.png)/[Blue](http://i.imgur.com/UDpGJhQ.png)/[Orange](http://i.imgur.com/hFMfQTr.png)
 
-Red: https://myanimelist.net/animelist/Insanitium?status=7
+Here are the links to my anime and manga pages if you want live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
 
-Blue: https://myanimelist.net/mangalist/Insanitium?status=7
-
-Orange: https://myanimelist.net/animelist/TheBatman11?status=7 (It's my friend's list and he may tweak or break the colour scheme without a warning. I'll replace the styles I'm not using with screenshots eventually.)
+And finally. for whoever is curious about the old theme (with the old MAL CSS format): [Old orange theme](http://i.imgur.com/MqwG1G1.jpg)
