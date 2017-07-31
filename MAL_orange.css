@@ -192,7 +192,7 @@
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: rgba(200, 0, 0, 0.8);
+    background-color: rgba(255, 95, 0, 0.8);
     display: inline-block;
     width: 135px;
     margin: 0 4px;
@@ -217,7 +217,7 @@
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-  background-color: rgba(255, 150, 0, 0.8);
+  background-color: rgba(200, 0, 0, 0.8);
 }
 
 
@@ -708,7 +708,7 @@ content: " Theme by Insanitium.";
     text-align: center;
     vertical-align: middle;
     font-size: 1.5em;
-    color: #fff; //rgb(255, 100, 0);
+    color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
   color: rgb(255, 100, 0);
