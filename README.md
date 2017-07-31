@@ -9,6 +9,6 @@ Screenshots*: [Red](http://i.imgur.com/JMPvV9I.png)/[Blue](http://i.imgur.com/UD
 
 Here are the links to my anime and manga pages if you want live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
 
-And finally. for whoever is curious about the old theme (with the old MAL CSS format): [Old orange theme](http://i.imgur.com/MqwG1G1.jpg)
+And finally, for whoever is curious about the old theme (with the old MAL CSS format): [Old orange theme](http://i.imgur.com/MqwG1G1.jpg)
 
 *The wallpapers and banners are not included in the css files
