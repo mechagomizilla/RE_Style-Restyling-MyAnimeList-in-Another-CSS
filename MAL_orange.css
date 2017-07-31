@@ -1179,7 +1179,7 @@ content: " Theme by Insanitium.";
     text-align: center;
 }
 .list-item:hover>tr:first-child{
-   background-color: rgba(200,0,0,0.7)!important;
+   background-color: rgba(200, 0, 0, 0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
 	-webkit-transition: all 0.4s ease-in-out 0.05s;
 	-o-transition: all 0.4s ease-in-out 0.05s;
