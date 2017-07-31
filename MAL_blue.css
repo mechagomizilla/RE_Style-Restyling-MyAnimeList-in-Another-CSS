@@ -18,7 +18,7 @@
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
     color: #F6F6F6;
     text-align: left;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
     z-index: 1101;
 }
 #advanced-options .advanced-options-header {
@@ -102,8 +102,8 @@
     cursor: pointer;
 }
 #advanced-options .sort-widget input[type=radio]:checked + label {
-    background-color: rgba(0, 100, 255, 0.5);
-    border: rgb(0, 100, 255) 0px solid;
+    background-color: rgba(0,100,255,0.5);
+    border: rgb(0,100,255) 0px solid;
     color: #FFFFFF;
 }
 #advanced-options .sort-widget input[type=radio]:disabled + label {
@@ -174,7 +174,7 @@
     display: inline-block;
     width: 110px;
     font-size: 12px;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
 }
 
 #advanced-options .sort-widget:last-of-type,
@@ -192,7 +192,7 @@
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: rgba(0, 50, 150, 0.8);
+    background-color: rgba(0,50,150,0.8);
     display: inline-block;
     width: 135px;
     margin: 0 4px;
@@ -217,7 +217,7 @@
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-  background-color: rgba(0, 100, 255, 0.8);
+  background-color: rgba(0,100,255,0.8);
 }
 
 
@@ -247,7 +247,7 @@ a {
     padding: 15px 0;
     background-color: rgba(30,30,30,0.9) !important;
     color: #FFFFFF;
-    font-family: 'Open Sans', Avenir, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
 }
 
 #copyright {
@@ -329,9 +329,9 @@ content: " Theme by Insanitium.";
     background-color: rgba(30,30,30,0.9);
     display: none;
     border: rgb(30,30,30) 1px solid;
-    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+    -webkit-box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.4) 0 0 10px;
     z-index: 1;
 }
 
@@ -410,12 +410,12 @@ content: " Theme by Insanitium.";
 /* SVG */
 .list-menu-float .icon-menu svg.icon {
     position: absolute;
-    fill: rgb(0, 100, 255);
+    fill: rgb(0,100,255);
 }
 
 .list-menu-float .icon-menu:hover svg.icon {
     position: absolute;
-    fill: rgb(30, 30, 30);
+    fill: rgb(30,30,30);
 }
 
 .list-menu-float .icon-menu.profile {
@@ -479,7 +479,7 @@ content: " Theme by Insanitium.";
     display: inline-block;
     color: #ffffff;
     font-size: 1.4em;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
@@ -500,7 +500,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(0, 85, 240) !important;
+    background-color: rgb(0,85,240) !important;
     width: 145px;
 }
 
@@ -544,7 +544,7 @@ content: " Theme by Insanitium.";
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     position: absolute;
-    background-color: rgb(0, 85, 240);
+    background-color: rgb(0,85,240);
     display: block;
     width: 110px;
     height: 50px;
@@ -617,7 +617,7 @@ content: " Theme by Insanitium.";
     border: rgba(255,255,255,0) 1px solid;
     font-size: 14px;
     color: #ffffff;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
 }
 
 .cover-block .image-container .btn-list-setting:hover {
@@ -704,17 +704,17 @@ content: " Theme by Insanitium.";
     display: table-cell;
     padding: 12px 0;
     margin: 0;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
     text-align: center;
     vertical-align: middle;
     font-size: 1.5em;
     color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
-  color: rgb(0, 100, 255);
+  color: rgb(0,100,255);
 }
 .status-menu-container .status-menu .status-button.on {
-    color: rgb(0, 100, 255);
+    color: rgb(0,100,255);
     font-weight: bold;
 }
 
@@ -722,7 +722,7 @@ content: " Theme by Insanitium.";
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: rgb(0, 100, 255);
+    background-color: rgb(0,100,255);
     display: block;
     width: 100%;
     height: 4px;
@@ -825,7 +825,7 @@ content: " Theme by Insanitium.";
     font-size: 1.6em;
     color: #fff;
     font-weight: bold;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
     text-align: center;
     vertical-align: middle
 }
@@ -870,11 +870,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n){
-    background-color: rgba(0, 50, 150, 0.9);
+    background-color: rgba(0,50,150,0.9);
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-    background-color: rgba(0, 40, 130, 0.9);
+    background-color: rgba(0,40,130,0.9);
 }
 
 /**
@@ -990,11 +990,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: rgb(0, 100, 255);
+    color: rgb(0,100,255);
 }
 
 .list-table .list-table-header .header-title .sort-icon {
-    color: rgb(0, 100, 255);
+    color: rgb(0,100,255);
 }
 
 
@@ -1035,7 +1035,7 @@ content: " Theme by Insanitium.";
     text-align: center;
     color: #fff !important;
     font-size: 0.8em;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
 }
 .list-table .list-table-data .tags .edit:hover {
     color: #fff !important;
@@ -1179,7 +1179,7 @@ content: " Theme by Insanitium.";
     text-align: center;
 }
 .list-item:hover>tr:first-child{
-   background-color: rgba(0, 100, 255, 0.7)!important;
+   background-color: rgba(0,100,255,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
 	-webkit-transition: all 0.4s ease-in-out 0.05s;
 	-o-transition: all 0.4s ease-in-out 0.05s;
