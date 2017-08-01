@@ -2,7 +2,7 @@
 
 These styles were created to support the 2016 updated version of the MAL themes.
 
-Screenshots(the wallpapers and banners are not included in the css files): [Red](http://i.imgur.com/JMPvV9I.png)/[Blue](http://i.imgur.com/UDpGJhQ.png)/[Orange](http://i.imgur.com/hFMfQTr.png)/[Green](http://i.imgur.com/8HPpzHB.png)
+Screenshots(the wallpapers and banners are not included in the css files): [Red](http://i.imgur.com/JMPvV9I.png)/[Blue](http://i.imgur.com/UDpGJhQ.png)/[Orange](http://i.imgur.com/hFMfQTr.png)/[Green](http://i.imgur.com/ZQRfhmc.png)
 
 To use a style, copy and paste the following line on a blank modern theme template on MAL: <pre>@import "https://InsanityDevice.github.io/MALstyles/MAL_[colour].css";</pre>
 
