@@ -874,7 +874,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-    background-color: rgba(0,145,45,0.9);
+    background-color: rgba(0,95,10,0.9);
 }
 
 /**
