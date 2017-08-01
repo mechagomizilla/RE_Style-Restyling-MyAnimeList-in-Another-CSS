@@ -102,8 +102,8 @@
     cursor: pointer;
 }
 #advanced-options .sort-widget input[type=radio]:checked + label {
-    background-color: rgba(40,200,20,0.5);
-    border: rgb(40,200,20) 0px solid;
+    background-color: rgba(135,0,180,0.5);
+    border: rgb(135,0,180) 0px solid;
     color: #FFFFFF;
 }
 #advanced-options .sort-widget input[type=radio]:disabled + label {
@@ -192,7 +192,7 @@
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: rgba(0,80,10,0.8);
+    background-color: rgba(65,0,90,0.8);
     display: inline-block;
     width: 135px;
     margin: 0 4px;
@@ -217,7 +217,7 @@
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-  background-color: rgba(40,200,20,0.8);
+  background-color: rgba(135,0,180,0.8);
 }
 
 
@@ -239,7 +239,7 @@ td {
 }
 
 a {
-    color: rgb(40,200,20);
+    color: rgb(135,0,180);
     text-decoration: none;
 }
 
@@ -410,7 +410,7 @@ content: " Theme by Insanitium.";
 /* SVG */
 .list-menu-float .icon-menu svg.icon {
     position: absolute;
-    fill: rgb(40,200,20);
+    fill: rgb(135,0,180);
 }
 
 .list-menu-float .icon-menu:hover svg.icon {
@@ -500,7 +500,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(0,80,10) !important;
+    background-color: rgb(65,0,90) !important;
     width: 145px;
 }
 
@@ -544,7 +544,7 @@ content: " Theme by Insanitium.";
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     position: absolute;
-    background-color: rgb(0,80,10);
+    background-color: rgb(65,0,90);
     display: block;
     width: 110px;
     height: 50px;
@@ -711,10 +711,10 @@ content: " Theme by Insanitium.";
     color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
-  color: rgb(40,200,20);
+  color: rgb(135,0,180);
 }
 .status-menu-container .status-menu .status-button.on {
-    color: rgb(40,200,20);
+    color: rgb(135,0,180);
     font-weight: bold;
 }
 
@@ -722,7 +722,7 @@ content: " Theme by Insanitium.";
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: rgb(40,200,20);
+    background-color: rgb(135,0,180);
     display: block;
     width: 100%;
     height: 4px;
@@ -870,11 +870,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n){
-    background-color: rgba(0,80,10,0.9);
+    background-color: rgba(65,0,90,0.9);
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-    background-color: rgba(0,65,10,0.9);
+    background-color: rgba(45,0,70,0.9);
 }
 
 /**
@@ -990,11 +990,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: rgb(40,200,20);
+    color: rgb(135,0,180);
 }
 
 .list-table .list-table-header .header-title .sort-icon {
-    color: rgb(40,200,20);
+    color: rgb(135,0,180);
 }
 
 
@@ -1179,7 +1179,7 @@ content: " Theme by Insanitium.";
     text-align: center;
 }
 .list-item:hover>tr:first-child{
-   background-color: rgba(40,200,20,0.7)!important;
+   background-color: rgba(135,0,180,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
 	-webkit-transition: all 0.4s ease-in-out 0.05s;
 	-o-transition: all 0.4s ease-in-out 0.05s;
