@@ -102,8 +102,8 @@
     cursor: pointer;
 }
 #advanced-options .sort-widget input[type=radio]:checked + label {
-    background-color: rgba(20,220,20,0.5);
-    border: rgb(20,220,20) 0px solid;
+    background-color: rgba(25,175,0,0.5);
+    border: rgb(25,175,0) 0px solid;
     color: #FFFFFF;
 }
 #advanced-options .sort-widget input[type=radio]:disabled + label {
@@ -217,7 +217,7 @@
 
 #advanced-options .btn-apply:hover,
 #advanced-options .btn-clear:hover {
-  background-color: rgba(20,220,20,0.8);
+  background-color: rgba(25,175,0,0.8);
 }
 
 
@@ -239,7 +239,7 @@ td {
 }
 
 a {
-    color: rgb(20,220,20);
+    color: rgb(25,175,0);
     text-decoration: none;
 }
 
@@ -410,7 +410,7 @@ content: " Theme by Insanitium.";
 /* SVG */
 .list-menu-float .icon-menu svg.icon {
     position: absolute;
-    fill: rgb(20,220,20);
+    fill: rgb(25,175,0);
 }
 
 .list-menu-float .icon-menu:hover svg.icon {
@@ -711,10 +711,10 @@ content: " Theme by Insanitium.";
     color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
-  color: rgb(20,220,20);
+  color: rgb(25,175,0);
 }
 .status-menu-container .status-menu .status-button.on {
-    color: rgb(20,220,20);
+    color: rgb(25,175,0);
     font-weight: bold;
 }
 
@@ -722,7 +722,7 @@ content: " Theme by Insanitium.";
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: rgb(20,220,20);
+    background-color: rgb(25,175,0);
     display: block;
     width: 100%;
     height: 4px;
@@ -990,11 +990,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: rgb(20,220,20);
+    color: rgb(25,175,0);
 }
 
 .list-table .list-table-header .header-title .sort-icon {
-    color: rgb(20,220,20);
+    color: rgb(25,175,0);
 }
 
 
@@ -1179,7 +1179,7 @@ content: " Theme by Insanitium.";
     text-align: center;
 }
 .list-item:hover>tr:first-child{
-   background-color: rgba(20,220,20,0.7)!important;
+   background-color: rgba(25,175,0,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
 	-webkit-transition: all 0.4s ease-in-out 0.05s;
 	-o-transition: all 0.4s ease-in-out 0.05s;
