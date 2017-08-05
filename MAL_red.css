@@ -226,7 +226,7 @@
  */
 
 body {
-    background-image: none !important;
+    background-image: none;
     background-color: #111 !important;
     margin: 0 0 0 0;
     color: #fff !important;
