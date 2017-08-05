@@ -102,7 +102,7 @@
     cursor: pointer;
 }
 #advanced-options .sort-widget input[type=radio]:checked + label {
-    background-color: rgba(200,0,0,0.4);
+    background-color: rgba(200,0,0,0.5);
     border: rgb(200,0,0) 0px solid;
     color: #FFFFFF;
 }
@@ -410,7 +410,7 @@ content: " Theme by Insanitium.";
 /* SVG */
 .list-menu-float .icon-menu svg.icon {
     position: absolute;
-    fill: rgb(255,100,0);
+    fill: rgb(200,0,0);
 }
 
 .list-menu-float .icon-menu:hover svg.icon {
@@ -500,7 +500,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(255,100,0) !important;
+    background-color: rgb(255,95,0) !important;
     width: 145px;
 }
 
@@ -544,7 +544,7 @@ content: " Theme by Insanitium.";
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     position: absolute;
-    background-color: rgb(255,100,0);
+    background-color: rgb(255,95,0);
     display: block;
     width: 110px;
     height: 50px;
@@ -711,10 +711,10 @@ content: " Theme by Insanitium.";
     color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
-  color: rgb(255,100,0);
+  color: rgb(200,0,0);
 }
 .status-menu-container .status-menu .status-button.on {
-    color: rgb(255,100,0);
+    color: rgb(200,0,0);
     font-weight: bold;
 }
 
@@ -722,7 +722,7 @@ content: " Theme by Insanitium.";
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: rgb(255,100,0);
+    background-color: rgb(200,0,0);
     display: block;
     width: 100%;
     height: 4px;
@@ -870,11 +870,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n){
-	background-color: rgba(255,95,0,0.9);
+    background-color: rgba(255,95,0,0.9);
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-	background-color: rgba(255,75,0,0.9);
+    background-color: rgba(255,75,0,0.9);
 }
 
 /**
@@ -990,11 +990,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: rgb(255,100,0)
+    color: rgb(200,0,0);
 }
 
 .list-table .list-table-header .header-title .sort-icon {
-    color: rgb(255,100,0);
+    color: rgb(200,0,0);
 }
 
 
@@ -1068,7 +1068,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
-    color: rgb(210,210,210);
+    color: #bababa;
     font-size: 0.7em
 }
 
@@ -1108,10 +1108,10 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .more-info .more-content a {
-    color: rgb(210,210,210);
+    color: #bababa;
 }
 .list-table .more-info .more-content a:hover {
-    color: rgb(210,210,210);
+    color: #bababa;
     text-decoration: underline;
 }
 
