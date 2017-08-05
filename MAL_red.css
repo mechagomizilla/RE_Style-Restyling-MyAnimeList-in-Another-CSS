@@ -102,7 +102,7 @@
     cursor: pointer;
 }
 #advanced-options .sort-widget input[type=radio]:checked + label {
-    background-color: rgba(200,0,0,0.4);
+    background-color: rgba(200,0,0,0.5);
     border: rgb(200,0,0) 0px solid;
     color: #FFFFFF;
 }
@@ -358,7 +358,7 @@ content: " Theme by Insanitium.";
 }
 
 .header .header-menu .list-menu .icon-menu:hover {
-    background-color: rgb(30,30,30);
+    background-color: rgb(30,30,30)
 }
 
 .header .header-menu .list-menu .icon-menu svg.icon {
@@ -500,7 +500,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(180,0,0) !important;
+    background-color: rgb(140,20,20) !important;
     width: 145px;
 }
 
@@ -544,7 +544,7 @@ content: " Theme by Insanitium.";
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     position: absolute;
-    background-color: rgb(180,0,0);
+    background-color: rgb(140,20,20);
     display: block;
     width: 110px;
     height: 50px;
@@ -870,11 +870,11 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n){
-	background-color: rgba(140,20,20,0.9);
+    background-color: rgba(140,20,20,0.9);
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-	background-color: rgba(110,20,20,0.9);
+    background-color: rgba(110,20,20,0.9);
 }
 
 /**
@@ -990,7 +990,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link.sort:hover {
-    color: rgb(200,0,0)
+    color: rgb(200,0,0);
 }
 
 .list-table .list-table-header .header-title .sort-icon {
@@ -1035,7 +1035,7 @@ content: " Theme by Insanitium.";
     text-align: center;
     color: #fff !important;
     font-size: 0.8em;
-    font-family: 'Open Sans', 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-family: 'Open Sans', verdana, arial, sans-serif;
 }
 .list-table .list-table-data .tags .edit:hover {
     color: #fff !important;
