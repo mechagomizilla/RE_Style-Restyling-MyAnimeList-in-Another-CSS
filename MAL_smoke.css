@@ -192,7 +192,7 @@
 
 #advanced-options .btn-apply,
 #advanced-options .btn-clear {
-    background-color: rgba(128,128,128,0.8);
+    background-color: rgba(107,107,107,0.8);
     display: inline-block;
     width: 135px;
     margin: 0 4px;
@@ -501,7 +501,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-menu-float .icon-menu:not(.profile):hover {
-    background-color: rgb(128,128,128) !important;
+    background-color: rgb(107,107,107) !important;
     width: 145px;
 }
 
@@ -545,7 +545,7 @@ content: " Theme by Insanitium.";
 .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
 .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     position: absolute;
-    background-color: rgb(128,128,128);
+    background-color: rgb(107,107,107);
     display: block;
     width: 110px;
     height: 50px;
@@ -871,7 +871,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table > tbody:nth-of-type(2n){
-    background-color: rgba(128,128,128,0.9);
+    background-color: rgba(107,107,107,0.9);
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
