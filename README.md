@@ -3,6 +3,7 @@
 These themes were created to support 2016's redesigned (modern) version of the MAL styles.
 
 Screenshots (the wallpapers and banners are not included in the css files): [Red](http://i.imgur.com/JMPvV9I.png)/[Blue](http://i.imgur.com/UDpGJhQ.png)/[Orange](http://i.imgur.com/sw1DAAm.png)/[Green](http://i.imgur.com/ZQRfhmc.png)/[Turquoise](http://i.imgur.com/47co7kh.png)/[Purple](http://i.imgur.com/3rTxAy8.png)/[Steel](https://i.imgur.com/79i12FM.png)
+*Warning: I have modified the fonts a little since then.
 
 To use a style, copy and paste the following line on a blank modern theme template on MAL: <pre>@import "https://InsanityDevice.github.io/MALstyles/MAL_[colour].css";</pre>
 
