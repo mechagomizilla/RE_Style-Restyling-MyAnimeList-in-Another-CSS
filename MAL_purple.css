@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700&subset=latin-ext');
 
 #advanced-options {
     position: absolute;
@@ -1017,7 +1017,7 @@ content: " Theme by Insanitium.";
 
 .list-table .list-table-data .data.title .link {
     font-size: 1.0em;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .list-table .list-table-data a:not(.edit-disabled):hover {
