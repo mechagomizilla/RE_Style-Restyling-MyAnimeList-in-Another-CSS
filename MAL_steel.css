@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&subset=latin-ext');
 
 #advanced-options {
     position: absolute;
@@ -18,7 +18,7 @@
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
     color: #F6F6F6;
     text-align: left;
-    font-family: 'Noto Sans', verdana, arial, sans-serif;
+    font-family: 'Raleway', verdana, arial, sans-serif;
     z-index: 1101;
 }
 #advanced-options .advanced-options-header {
