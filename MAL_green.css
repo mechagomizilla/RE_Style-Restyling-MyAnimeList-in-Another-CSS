@@ -677,7 +677,7 @@ content: " Theme by Insanitium.";
  */
 .status-menu-container {
     width: 1024px;
-    height: 46px;
+    height: 4em;
     background-color: rgb(30,30,30);
     border-bottom: rgb(30,30,30) 1px solid;
     z-index: 1
@@ -708,7 +708,7 @@ content: " Theme by Insanitium.";
     font-family: 'Raleway', verdana, arial, sans-serif;
     text-align: center;
     vertical-align: middle;
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #fff;
 }
 .status-menu-container .status-menu .status-button:hover {
