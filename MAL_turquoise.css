@@ -1016,8 +1016,8 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-data .data.title .link {
-    font-size: 0.8em;
-    font-weight: normal;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .list-table .list-table-data a:not(.edit-disabled):hover {
