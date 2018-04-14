@@ -307,7 +307,7 @@ content: " Theme by Insanitium.";
 
 .header .header-menu .btn-menu {
     display: block;
-    color: #ffffff;
+    color: #ffffff !important;
     text-align: right;
     font-size: 16px;
 }
