@@ -966,7 +966,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link {
-    font-size: 0.8px;
+    font-size: 14px;
     color: #fff;
     text-decoration: none
 }
@@ -1016,7 +1016,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-data .data.title .link {
-    font-size: 1.0em;
+    font-size: 0.8em;
     font-weight: normal;
 }
 
