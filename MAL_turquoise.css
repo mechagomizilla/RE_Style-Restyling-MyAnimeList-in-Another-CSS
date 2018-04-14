@@ -232,7 +232,7 @@ body {
     color: #fff !important;
     text-align: center;
     font-family: 'Raleway', Verdana, Arial, sans-serif;
-    font-size: 0.8em;
+    font-size: 11px;
 }
 
 td {
@@ -966,7 +966,7 @@ content: " Theme by Insanitium.";
 }
 
 .list-table .list-table-header .header-title .link {
-    font-size: 14px;
+    font-size: 0.8px;
     color: #fff;
     text-decoration: none
 }
