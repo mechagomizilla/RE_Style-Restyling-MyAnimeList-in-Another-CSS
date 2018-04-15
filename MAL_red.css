@@ -317,6 +317,11 @@ content: " Theme by Insanitium.";
     margin-top: 6px;
     margin-right: 15px;
     text-align: right;
+    color: #FFF;
+}
+
+.header .header-menu .btn-menu > a {
+    color: #FFF;
 }
 
 .header .username {
