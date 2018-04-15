@@ -1079,7 +1079,8 @@ content: " Theme by Insanitium.";
 
 .list-table .list-table-data .data.title .rewatching, .list-table .list-table-data .data.title .rereading, .list-table .list-table-data .data.title .content-status {
     color: #bababa;
-    font-size: 0.7em
+    font-size: 0.9em;
+    font-style:  italic;
 }
 
 .list-table .list-table-data .data.score .link {
