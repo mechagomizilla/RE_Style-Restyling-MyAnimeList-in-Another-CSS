@@ -320,6 +320,10 @@ content: " Theme by Insanitium.";
     color: #FFF;
 }
 
+.header .header-menu .btn-menu > a {
+    color: #FFF;
+}
+
 .header .username {
     font-weight: bold;
 }
