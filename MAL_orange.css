@@ -1024,7 +1024,7 @@ content: " Theme by Insanitium.";
 
 .list-table .list-table-data .data.title .link {
     font-size: 1.0em;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .list-table .list-table-data a:not(.edit-disabled):hover {
