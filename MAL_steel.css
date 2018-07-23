@@ -1187,6 +1187,7 @@ content: " Theme by Insanitium.";
     font-size: 20px;
     text-align: center;
 }
+
 .list-item:hover>tr:first-child{
    background-color: rgba(214,182,0,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
@@ -1194,4 +1195,16 @@ content: " Theme by Insanitium.";
 	-o-transition: all 0.4s ease-in-out 0.05s;
 	-ms-transition: all 0.4s ease-in-out 0.05s;
 	transition: all 0.4s ease-in-out 0.05s;
+}
+
+.list-table .list-table-data .data.image .image {
+    object-fit: cover;
+    box-sizing: border-box;
+    max-height: 44px;
+    min-height: 44px;
+    max-width: 44px;
+    min-width: 44px;
+    padding: 0;
+    border: #FFF 1px solid;
+    border-radius: 11px;
 }
