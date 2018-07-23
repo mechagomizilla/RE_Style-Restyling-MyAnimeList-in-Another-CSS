@@ -19,6 +19,7 @@
     font-family: "trebuchet ms", arial, sans-serif;
     z-index: 1101;
 }
+
 #advanced-options .advanced-options-header {
     width: 750px;
     margin: 0px auto;
@@ -1101,6 +1102,7 @@ content: " Theme by Insanitium.";
     opacity: 0.6;
     display: none;
 }
+
 .list-table .list-table-data .data .icon-watch:hover,
 .list-table .list-table-data .data .icon-watch-pv:hover {
     opacity: 0.4;
@@ -1187,6 +1189,7 @@ content: " Theme by Insanitium.";
     font-size: 20px;
     text-align: center;
 }
+
 .list-item:hover>tr:first-child{
    background-color: rgba(0,100,255,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
@@ -1194,4 +1197,16 @@ content: " Theme by Insanitium.";
 	-o-transition: all 0.4s ease-in-out 0.05s;
 	-ms-transition: all 0.4s ease-in-out 0.05s;
 	transition: all 0.4s ease-in-out 0.05s;
+}
+
+.list-table .list-table-data .data.image .image {
+    object-fit: cover;
+    box-sizing: border-box;
+    max-height: 44px;
+    min-height: 44px;
+    max-width: 44px;
+    min-width: 44px;
+    padding: 0;
+    border: #FFF 1px solid;
+    border-radius: 11px;
 }
