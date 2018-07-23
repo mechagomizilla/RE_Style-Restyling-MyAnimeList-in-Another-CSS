@@ -7,7 +7,7 @@ Screenshots (the wallpapers and banners are not included in the css files): [Red
 
 To use a style, copy and paste the RAW version of the desired CSS file into the "Add custom CSS" section of any modern template.
 
-With the <pre>@import;</pre> function now disabled on MAL (as of July 20th 2018), I am removing web fonts from the equation and changing it to Verdana, since it's probably one of the best fonts that is readily available on every respectable OS that I know of.
+With the <code>@import</code> function now disabled on MAL (as of July 20th 2018), I am removing web fonts from the equation and changing it to Verdana, since it's probably one of the best fonts that is readily available on every respectable OS that I know of.
 
 Here are the links to my anime and manga pages if you want live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
 
