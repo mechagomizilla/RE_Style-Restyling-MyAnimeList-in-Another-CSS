@@ -1071,8 +1071,8 @@ content: " Theme by Insanitium.";
     max-width: 44px;
     min-width: 44px;
     padding: 0;
-    border: #FFF 1px solid;
-    border-radius: 11px;
+    border: #FFF 0px solid;
+    border-radius: 8px;
 }
 
 .list-table .list-table-data .data.title {
