@@ -1194,6 +1194,10 @@ content: " Theme by Insanitium.";
     text-align: center;
 }
 
+td.data.magazine {
+    width: 186px;
+}
+
 .list-item:hover>tr:first-child{
    background-color: rgba(40,200,20,0.7)!important;
 	-moz-transition: all 0.4s ease-in-out 0.05s;
