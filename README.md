@@ -24,4 +24,4 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 <b>Emerald:</b>
 ![Emerald](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Emerald.png)
     
-Here are the links to my anime and manga pages if you want live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
+Here are the links to my anime and manga pages if you want to see live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
