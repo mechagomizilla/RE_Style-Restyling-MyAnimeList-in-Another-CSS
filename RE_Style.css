@@ -1,15 +1,15 @@
-	/* Main color variables */
-	:root
-	{
-		/* User colors */
-		--main-color: rgb(0,160,190) !important;
-		--main-background: rgba(0,90,100,0.9) !important;
-		--second-background: rgba(0,70,80,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+  /* Main color variables */
+  :root
+  {
+    /* User colors */
+    --main-color: rgb(0,160,190) !important;
+    --main-background: rgba(0,90,100,0.9) !important;
+    --second-background: rgba(0,70,80,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,160,190,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,160,190,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
     
 
@@ -19,75 +19,75 @@
 
     Sky and Sea
     --main-color: rgb(0,100,255) !important;
-		--main-background: rgba(0,50,150,0.9) !important;
-		--second-background: rgba(0,40,130,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(0,50,150,0.9) !important;
+    --second-background: rgba(0,40,130,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,100,255,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,100,255,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Emerald
     --main-color: rgb(40,200,20) !important;
-		--main-background: rgba(0,80,10,0.9) !important;
-		--second-background: rgba(0,65,10,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(0,80,10,0.9) !important;
+    --second-background: rgba(0,65,10,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(40,200,20,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(40,200,20,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Grapefruit
     --main-color: rgb(200,0,0) !important;
-		--main-background: rgba(255,95,0,0.9) !important;
-		--second-background: rgba(255,75,0,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(255,95,0,0.9) !important;
+    --second-background: rgba(255,75,0,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(200,0,0,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(200,0,0,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Purple Velvet
     --main-color: rgb(135,0,180) !important;
-		--main-background: rgba(65,0,90,0.9) !important;
-		--second-background: rgba(45,0,70,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(65,0,90,0.9) !important;
+    --second-background: rgba(45,0,70,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(135,0,180,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(135,0,180,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Bloodred
     --main-color: rgb(200,0,0) !important;
-		--main-background: rgba(140,20,20,0.9) !important;
-		--second-background: rgba(110,20,20,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(140,20,20,0.9) !important;
+    --second-background: rgba(110,20,20,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(200,0,0,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(200,0,0,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Turquoise Ocean
     --main-color: rgb(0,160,190) !important;
-		--main-background: rgba(0,90,100,0.9) !important;
-		--second-background: rgba(0,70,80,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+    --main-background: rgba(0,90,100,0.9) !important;
+    --second-background: rgba(0,70,80,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(255,255,255) !important;
     --menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,160,190,0.7);
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,160,190,0.7);
     --shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     */
 
 
-		/* Colors for status */
-		--currently: #2db039 !important;
+    /* Colors for status */
+    --currently: #2db039 !important;
     --completed: #26448f !important;
     --onhold: #f9d457 !important;
     --dropped: #a12f31 !important;
@@ -268,24 +268,24 @@
   }
 
   /* Changed text highlight */
-	::selection
-	{
-		background: var(--main-text) !important;
-		color: var(--main-color) !important;
-	}
-	::-moz-selection
-	{
-		background: var(--main-text) !important;
-		color: var(--main-color) !important;
-	}
+  ::selection
+  {
+    background: var(--main-text) !important;
+    color: var(--main-color) !important;
+  }
+  ::-moz-selection
+  {
+    background: var(--main-text) !important;
+    color: var(--main-color) !important;
+  }
 
 
-	/* Removing text decorations */
-	*
-	{
-		text-decoration: none !important;
-		transition: none !important;
-		border: none !important;
+  /* Removing text decorations */
+  *
+  {
+    text-decoration: none !important;
+    transition: none !important;
+    border: none !important;
   }
 
   /*Transitions*/
@@ -396,38 +396,38 @@
   }
 
 
-	/*Proper z-index for viewing in resized windows*/
-	.header
-	{
-		z-index: 200 !important;
-	}
-	.list-container
-	{
-		z-index: 300 !important;
-	}
-	.list-menu-float
-	{
-		z-index: 500 !important;
-	}
+  /*Proper z-index for viewing in resized windows*/
+  .header
+  {
+    z-index: 200 !important;
+  }
+  .list-container
+  {
+    z-index: 300 !important;
+  }
+  .list-menu-float
+  {
+    z-index: 500 !important;
+  }
 
 
-	/*Cover image*/
-	.cover-block .image-container .btn-list-setting
-	{
+  /*Cover image*/
+  .cover-block .image-container .btn-list-setting
+  {
     display: none !important;
     font-family: var(--roboto);
-	}
+  }
 
 
-	/*SVG*/
-	.list-menu-float .icon-menu svg.icon
-	{
-		fill: var(--main-color) !important;
-	}
-	.list-menu-float .icon-menu:hover svg.icon
-	{
-		fill: var(--menu-background) !important;
-	}
+  /*SVG*/
+  .list-menu-float .icon-menu svg.icon
+  {
+    fill: var(--main-color) !important;
+  }
+  .list-menu-float .icon-menu:hover svg.icon
+  {
+    fill: var(--menu-background) !important;
+  }
 
 
   /*Sidebar*/
@@ -440,20 +440,20 @@
     color: var(--main-text) !important;
     font-family: var(--roboto);
   }
-	.list-menu-float .icon-menu
-	{
-		background-color: var(--menu-background) !important;
+  .list-menu-float .icon-menu
+  {
+    background-color: var(--menu-background) !important;
   }
   .list-menu-float .icon-menu:not(.profile):hover
   {
     background-color: var(--main-color) !important;
   }
-	.list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
-	{
-		background-color: var(--menu-background) !important;
-	}
-	.list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
-	{
+  .list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
+  {
+    background-color: var(--menu-background) !important;
+  }
+  .list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
+  {
     color: var(--main-text) !important;
   }
   .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
@@ -467,14 +467,14 @@
   
 
   /*Status menu*/
-	/*Status buttons*/
-	.status-menu-container
-	{
-		background-color: var(--menu-background) !important;
-		width: 1024px !important;
-	}
-	.status-menu-container .status-menu .status-button
-	{
+  /*Status buttons*/
+  .status-menu-container
+  {
+    background-color: var(--menu-background) !important;
+    width: 1024px !important;
+  }
+  .status-menu-container .status-menu .status-button
+  {
     color: var(--menu-text) !important;
     font-family: var(--roboto);
     font-size: 1.4em;
@@ -493,72 +493,72 @@
   {
     bottom: 2px;
   }
-	.status-button.all_anime.on::after, .status-button.all_anime::after
-	{
-		background-color: var(--main-color) !important;
-	}
-	.status-button.reading.on::after, .status-button.reading::after,
-	.status-button.watching.on::after, .status-button.watching::after
-	{
-		background-color: var(--currently) !important;
+  .status-button.all_anime.on::after, .status-button.all_anime::after
+  {
+    background-color: var(--main-color) !important;
+  }
+  .status-button.reading.on::after, .status-button.reading::after,
+  .status-button.watching.on::after, .status-button.watching::after
+  {
+    background-color: var(--currently) !important;
   }
   .status-button.completed.on::after, .status-button.completed::after
   {
-		background-color: var(--completed) !important;
+    background-color: var(--completed) !important;
   }
-	.status-button.onhold.on::after, .status-button.onhold::after
-	{
-		background-color: var(--onhold) !important;
-	}
-	.status-button.dropped.on::after, a.status-button.dropped::after
-	{
-		background-color: var(--dropped) !important;
-	}
-	.status-button.plantowatch::after, .status-button.plantowatch.on::after,
-	.status-button.plantoread::after, .status-button.plantoread.on::after
-	{
-		background-color: var(--planto) !important;
+  .status-button.onhold.on::after, .status-button.onhold::after
+  {
+    background-color: var(--onhold) !important;
   }
-	/*Links*/
-	.status-button.all_anime.on:hover, .status-button.all_anime:hover,
+  .status-button.dropped.on::after, a.status-button.dropped::after
+  {
+    background-color: var(--dropped) !important;
+  }
+  .status-button.plantowatch::after, .status-button.plantowatch.on::after,
+  .status-button.plantoread::after, .status-button.plantoread.on::after
+  {
+    background-color: var(--planto) !important;
+  }
+  /*Links*/
+  .status-button.all_anime.on:hover, .status-button.all_anime:hover,
   .status-button.reading.on:hover, .status-button.reading:hover,
-	.status-button.watching.on:hover, .status-button.watching:hover,
+  .status-button.watching.on:hover, .status-button.watching:hover,
   .status-button.completed.on:hover, .status-button.completed:hover,
-	.status-button.onhold.on:hover, .status-button.onhold:hover,
-	.status-button.dropped.on:hover, a.status-button.dropped:hover,
-	.status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
+  .status-button.onhold.on:hover, .status-button.onhold:hover,
+  .status-button.dropped.on:hover, a.status-button.dropped:hover,
+  .status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
   .status-button.plantoread:hover, .status-button.plantoread.on:hover,
   .fa.fa-search:hover
   {
-		color: var(--main-color) !important;;
-	}
+    color: var(--main-color) !important;;
+  }
 
 
-	.list-container
-	{
-		background-color: transparent !important;
-		border: none !important;
-		width: 1024px !important;
-	}
+  .list-container
+  {
+    background-color: transparent !important;
+    border: none !important;
+    width: 1024px !important;
+  }
 
 
-	/*Header for list*/
-	.list-unit .list-status-title .text
-	{
+  /*Header for list*/
+  .list-unit .list-status-title .text
+  {
     font-family: var(--roboto);
     color: var(--menu-text) !important;
     font-size: 1.6em;
   }
   .list-unit .list-status-title
-	{
+  {
     background-color: var(--menu-background) !important;
   }
   .list-table > tbody:nth-of-type(1)
   {
     background: none !important;
   }
-	.list-table .list-table-header .header-title
-	{
+  .list-table .list-table-header .header-title
+  {
     background: var(--menu-background) 
       url(https://myanimelist.net/img/pc/ownlist/bar-table-header-dark.png) 
       no-repeat right 6px / 1px 14px;
@@ -567,44 +567,44 @@
   }
   .list-table .list-table-header .header-title,
   .list-table .list-table-header .header-title .link,
-	.list-table .list-table-header .header-title .link.sort
-	{
-		color: var(--menu-text) !important;
+  .list-table .list-table-header .header-title .link.sort
+  {
+    color: var(--menu-text) !important;
   }
-	.list-table .list-table-header .header-title .link.sort:hover
-	{
-		color: var(--main-color) !important;
-	}
+  .list-table .list-table-header .header-title .link.sort:hover
+  {
+    color: var(--main-color) !important;
+  }
   .list-table .list-table-header .header-title, .list-table .list-table-header .header-title .link
   {
     font-size: 1em;
   }
-	.list-unit .list-status-title .stats a
-	{
-		color: var(--menu-text) !important;
-	}
-	.list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
-	{
-		color: var(--main-color) !important;
-	}
-	.list-unit .list-stats
-	{
-		background: var(--menu-background) !important;
-		color: var(--menu-text) !important;
-	}
+  .list-unit .list-status-title .stats a
+  {
+    color: var(--menu-text) !important;
+  }
+  .list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
+  {
+    color: var(--main-color) !important;
+  }
+  .list-unit .list-stats
+  {
+    background: var(--menu-background) !important;
+    color: var(--menu-text) !important;
+  }
 
-	/*Filtering*/
-	#advanced-options
-	{
+  /*Filtering*/
+  #advanced-options
+  {
     background: var(--main-background) !important;
     font-family: var(--roboto);
     color: var(--main-text) !important;
-	}
-	#advanced-options input[type="text"], #advanced-options .filter-widget.title input[type="text"]
-	{
+  }
+  #advanced-options input[type="text"], #advanced-options .filter-widget.title input[type="text"]
+  {
     background: white !important;
     color: black !important;
-	}
+  }
   #advanced-options .sort-widget .widget-header,
   #advanced-options .filter-widget .widget-header
   {
@@ -613,45 +613,45 @@
     font-size: 1em;
     font-family: var(--roboto);
   }
-	#advanced-options .btn-apply, #advanced-options .btn-clear, #advanced-options .sort-widget input[type=radio]:checked + label
-	{
+  #advanced-options .btn-apply, #advanced-options .btn-clear, #advanced-options .sort-widget input[type=radio]:checked + label
+  {
     color: var(--main-text);
     background-color: var(--main-color) !important;
-	}
-	#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
-	{
-		filter: brightness(110%) !important;
-	}
+  }
+  #advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
+  {
+    filter: brightness(110%) !important;
+  }
 
-	
-	/*Textarea*/
-	textarea, .list-table .list-table-data .tags textarea, .status-menu-container .search-container #search-box input, input
-	{
-		background-color: var(--menu-background) !important;
+  
+  /*Textarea*/
+  textarea, .list-table .list-table-data .tags textarea, .status-menu-container .search-container #search-box input, input
+  {
+    background-color: var(--menu-background) !important;
     color: var(--dimmer-text) !important;
-	}
+  }
 
 
-	/*More*/
-	.list-table .more-info .more-content a, .list-table .more-info .more-content a
-	{
-		color: var(--dimmer-text) !important;
-	}
-	.list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
-	{
+  /*More*/
+  .list-table .more-info .more-content a, .list-table .more-info .more-content a
+  {
+    color: var(--dimmer-text) !important;
+  }
+  .list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
+  {
     color: var(--main-text) !important;
-		text-shadow: var(--shadow) !important;
-	}
+    text-shadow: var(--shadow) !important;
+  }
 
 
-	/*List*/
-	.list-item:nth-of-type(2n)
-	{
-		background: var(--main-background) !important;
-	}
-	.list-item:nth-of-type(2n + 1)
-	{
-		background: var(--second-background) !important;
+  /*List*/
+  .list-item:nth-of-type(2n)
+  {
+    background: var(--main-background) !important;
+  }
+  .list-item:nth-of-type(2n + 1)
+  {
+    background: var(--second-background) !important;
   }
   .list-table .list-table-data .data.title .link, .list-table .list-table-data .data.score .link
   {
@@ -668,68 +668,68 @@
   {
     font-size: 1.2em;
   }
-	
+  
 
-	/*List links*/
-	.list-table .list-table-data .data a
-	{
-		color: var(--main-text) !important;
-	}
-	.list-table .list-table-data .data a:hover
-	{
+  /*List links*/
+  .list-table .list-table-data .data a
+  {
+    color: var(--main-text) !important;
+  }
+  .list-table .list-table-data .data a:hover
+  {
     color: var(--main-text) !important;
     text-shadow: var(--shadow) ;
   }
 
 
-	/*Tags edit button*/
-	.list-table .list-table-data .tags .edit
-	{
+  /*Tags edit button*/
+  .list-table .list-table-data .tags .edit
+  {
     color: var(--dimmer-text) !important;
     font-family: var(--roboto);
     font-size: 0.75em;
-	}
-	.list-table .list-table-data .tags .edit:hover
-	{
+  }
+  .list-table .list-table-data .tags .edit:hover
+  {
     color: var(--main-text) !important;
-		text-shadow: var(--shadow) !important;
-	}
+    text-shadow: var(--shadow) !important;
+  }
 
-	/*Title status*/
-	.list-table .list-table-data .data.title .rewatching,
-	.list-table .list-table-data .data.title .rereading,
-	.list-table .list-table-data .data.title .content-status
-	{
+  /*Title status*/
+  .list-table .list-table-data .data.title .rewatching,
+  .list-table .list-table-data .data.title .rereading,
+  .list-table .list-table-data .data.title .content-status
+  {
     color: var(--dimmer-text) !important;
     font-style: italic;
     font-size: 0.9em;
-	}
+  }
 
-	/*Watch icon*/
-	.list-table .list-table-data .data .icon-watch,
-	.list-table .list-table-data .data .icon-watch-pv
-	{
-		display: none !important;
-	}
+  /*Watch icon*/
+  .list-table .list-table-data .data .icon-watch,
+  .list-table .list-table-data .data .icon-watch-pv
+  {
+    display: none !important;
+  }
 
 
-	/*Colored bar for entries*/
-	.list-table .list-table-data .data.status.reading,
-	.list-table .list-table-data .data.status.watching
-	{
-		background-color: var(--currently) !important;
-	}
-	.list-table .list-table-data .data.status.completed
-	{
-		background-color: var(--completed) !important;
-	}
-	.list-table .list-table-data .data.status.onhold
-	{
-		background-color: var(--onhold) !important;
-	}
-	.list-table .list-table-data .data.status.dropped
-	{
-		background-color: var(--dropped) !important;
+  /*Colored bar for entries*/
+  .list-table .list-table-data .data.status.reading,
+  .list-table .list-table-data .data.status.watching
+  {
+    background-color: var(--currently) !important;
+  }
+  .list-table .list-table-data .data.status.completed
+  {
+    background-color: var(--completed) !important;
+  }
+  .list-table .list-table-data .data.status.onhold
+  {
+    background-color: var(--onhold) !important;
+  }
+  .list-table .list-table-data .data.status.dropped
+  {
+    background-color: var(--dropped) !important;
   }
   .list-table .list-table-data .data.status.plantoread, 
   .list-table .list-table-data .data.status.plantowatch 
@@ -756,11 +756,11 @@
   }
 
 
-	/*Footer*/
-	#footer-block
-	{
-     background: var(--menu-background) !important;
-     font-family: var(--roboto);
+  /*Footer*/
+  #footer-block
+  {
+    background: var(--menu-background) !important;
+    font-family: var(--roboto);
   }
   
   #copyright {
