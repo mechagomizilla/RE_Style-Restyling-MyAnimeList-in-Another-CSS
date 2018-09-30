@@ -571,7 +571,6 @@
 	{
 		color: var(--menu-text) !important;
   }
-  .list-table .list-table-header .header-title .link:hover,
 	.list-table .list-table-header .header-title .link.sort:hover
 	{
 		color: var(--main-color) !important;
@@ -760,8 +759,8 @@
 	/*Footer*/
 	#footer-block
 	{
-      background: var(--menu-background) !important;
-      font-family: var(--roboto);
+     background: var(--menu-background) !important;
+     font-family: var(--roboto);
   }
   
   #copyright {
