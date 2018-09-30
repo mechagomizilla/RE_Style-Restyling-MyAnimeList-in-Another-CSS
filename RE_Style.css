@@ -270,12 +270,12 @@
   /* Changed text highlight */
   ::selection
   {
-    background: var(--main-text) !important;
+    background: var(--menu-text) !important;
     color: var(--main-color) !important;
   }
   ::-moz-selection
   {
-    background: var(--main-text) !important;
+    background: var(--menu-text) !important;
     color: var(--main-color) !important;
   }
 
@@ -628,7 +628,7 @@
   textarea, .list-table .list-table-data .tags textarea, .status-menu-container .search-container #search-box input, input
   {
     background-color: var(--menu-background) !important;
-    color: var(--dimmer-text) !important;
+    color: var(--menu-text) !important;
   }
 
 
