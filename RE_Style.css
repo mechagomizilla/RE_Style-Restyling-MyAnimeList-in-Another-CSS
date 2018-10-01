@@ -295,7 +295,9 @@
   .list-menu-float .icon-menu .text, .list-menu-float .icon-menu.setting .text,
   .status-menu-container .status-menu .status-button,
   .status-menu-container .status-menu .status-button:after, .fa.fa-search:hover,
-  .list-table .list-table-header .header-title .link.sort
+  .list-table .list-table-header .header-title .link.sort, input[type="button" i]:hover,
+  input[type="submit" i]:hover, input[type="reset" i]:hover,
+  input[type="file" i]::-webkit-file-upload-button:hover, button:hover
   {
     -moz-transition-property: all !important;
     -o-transition-property: all !important;
@@ -619,6 +621,29 @@
     background-color: var(--main-color) !important;
   }
   #advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
+  {
+    filter: brightness(110%) !important;
+  }
+
+
+  /*Prompt*/
+  #fancybox-outer 
+  {
+    background: var(--menu-background) !important;
+  }
+  #fancybox-inner 
+  {
+    color: var(--menu-text) !important;
+  }
+  input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button 
+  {
+    color: var(--main-text) !important;
+    background-color: var(--main-color) !important;
+    cursor: pointer !important;
+    padding: 2px 6px 3px !important;
+    border-radius: 4px !important;
+  }
+  input[type="button" i]:hover, input[type="submit" i]:hover, input[type="reset" i]:hover, input[type="file" i]::-webkit-file-upload-button:hover, button:hover
   {
     filter: brightness(110%) !important;
   }
