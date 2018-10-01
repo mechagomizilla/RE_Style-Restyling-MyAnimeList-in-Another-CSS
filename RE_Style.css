@@ -629,11 +629,11 @@
   /*Prompt*/
   #fancybox-outer 
   {
-    background: var(--menu-background) !important;
+    background: var(--main-background) !important;
   }
   #fancybox-inner 
   {
-    color: var(--menu-text) !important;
+    color: var(--main-text) !important;
   }
   input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button 
   {
