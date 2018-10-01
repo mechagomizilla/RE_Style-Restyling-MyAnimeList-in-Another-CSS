@@ -10,7 +10,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(0,160,190,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
     
 
     /*
@@ -26,7 +26,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(0,100,255,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Emerald
     --main-color: rgb(40,200,20) !important;
@@ -37,7 +37,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(40,200,20,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Grapefruit
     --main-color: rgb(200,0,0) !important;
@@ -48,7 +48,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(200,0,0,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Purple Velvet
     --main-color: rgb(135,0,180) !important;
@@ -59,7 +59,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(135,0,180,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Bloodred
     --main-color: rgb(200,0,0) !important;
@@ -70,7 +70,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(200,0,0,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     Turquoise Ocean
     --main-color: rgb(0,160,190) !important;
@@ -81,7 +81,7 @@
     --menu-text: rgb(255,255,255) !important;
     --dimmer-text: rgba(255,255,255,0.6) !important;
     --highlight: rgba(0,160,190,0.7);
-    --shadow: 0 0 0.3em black, 0 0 0.3em black;
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
     */
 
@@ -479,15 +479,23 @@
   {
     color: var(--menu-text) !important;
     font-family: var(--roboto);
-    font-size: 1.4em;
+    font-size: 1.5em;
+    padding: 0.75em 0;
   }
   .status-menu-container .status-menu .status-button.on
   {
     color: var(--main-color)!important;
   }
+  /*Search box*/
   .fa.fa-search
   {
     color: var(--menu-text) !important;
+  }
+  .status-menu-container .search-container
+  {
+    position: absolute;
+    right: 18px;
+    font-size: 11px;
   }
   /*Colored entries*/
   /*Bars*/
@@ -665,7 +673,7 @@
   .list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
   {
     color: var(--main-text) !important;
-    text-shadow: var(--shadow) !important;
+    text-shadow: var(--highlight-shadow) !important;
   }
 
 
@@ -703,7 +711,7 @@
   .list-table .list-table-data .data a:hover
   {
     color: var(--main-text) !important;
-    text-shadow: var(--shadow) ;
+    text-shadow: var(--highlight-shadow) ;
   }
 
 
@@ -717,7 +725,7 @@
   .list-table .list-table-data .tags .edit:hover
   {
     color: var(--main-text) !important;
-    text-shadow: var(--shadow) !important;
+    text-shadow: var(--highlight-shadow) !important;
   }
 
   /*Title status*/
