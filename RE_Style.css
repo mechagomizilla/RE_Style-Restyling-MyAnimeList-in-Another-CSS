@@ -777,7 +777,7 @@
     padding: 0;
     border: #FFF 0px solid !important;
     border-radius: 5.5px;
-    box-shadow: var(--shadow);
+    box-shadow: 0 0 0.3em black, 0 0 0.3em black;
   }
 
 
