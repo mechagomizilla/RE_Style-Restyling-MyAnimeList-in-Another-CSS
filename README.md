@@ -7,21 +7,21 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 *Choose from one of these or create your own color palette!*
 
 <b>Turquoise Ocean:</b>
-![Turquoise Ocean](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Turquoise-Ocean.png)
+![Turquoise Ocean](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Turquoise-Ocean.png)
    
 <b>Bloodred:</b>
-![Bloodred](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Bloodred.png)
+![Bloodred](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Bloodred.png)
 
 <b>Grapefruit:</b>
-![Grapefruit](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Grapefruit.png)
+![Grapefruit](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Grapefruit.png)
 
 <b>Purple Velvet:</b>
-![Purple Velvet](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Purple-Velvet.png)
+![Purple Velvet](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Purple-Velvet.png)
 
 <b>Sky and Sea:</b>
-![Sky and Sea](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Sky-and-Sea.png)
+![Sky and Sea](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Sky-and-Sea.png)
 
 <b>Emerald:</b>
-![Emerald](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/RE_Emerald.png)
+![Emerald](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Emerald.png)
     
 Here are the links to my anime and manga pages if you want to see live exemples of my styles: [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
