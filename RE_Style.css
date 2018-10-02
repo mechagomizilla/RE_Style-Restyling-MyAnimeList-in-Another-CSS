@@ -1,7 +1,7 @@
-  /* Main color variables */
+  /*Main color variables*/
   :root
   {
-    /* User colors */
+    /*User colors*/
     --main-color: rgb(0,160,190) !important;
     --main-background: rgba(0,90,100,0.9) !important;
     --second-background: rgba(0,70,80,0.9) !important;
@@ -86,7 +86,7 @@
     */
 
 
-    /* Colors for status */
+    /*Colors for status*/
     --currently: #2db039 !important;
     --completed: #26448f !important;
     --onhold: #f9d457 !important;
@@ -267,20 +267,16 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-  /* Changed text highlight */
+
+  /*Changed text highlight*/
   ::selection
   {
     background: var(--menu-text) !important;
     color: var(--main-color) !important;
   }
-  ::-moz-selection
-  {
-    background: var(--menu-text) !important;
-    color: var(--main-color) !important;
-  }
 
 
-  /* Removing text decorations */
+  /*Removing text decorations*/
   *
   {
     text-decoration: none !important;
@@ -288,7 +284,7 @@
     border: none !important;
   }
 
-  /*Transitions*/
+  /*Global transition effects*/
   #advanced-options .btn-apply, #advanced-options .btn-clear,
   .header .header-menu .btn-menu a:hover, .header .header-info a:hover,
   .header .header-menu .list-menu .icon-menu, .list-menu-float .icon-menu,
@@ -299,33 +295,9 @@
   input[type="submit" i]:hover, input[type="reset" i]:hover,
   input[type="file" i]::-webkit-file-upload-button:hover, button:hover
   {
-    -moz-transition-property: all !important;
-    -o-transition-property: all !important;
-    -webkit-transition-property: all !important;
     transition-property: all !important;
-    -moz-transition-duration: 0.3s !important;
-    -o-transition-duration: 0.3s !important;
-    -webkit-transition-duration: 0.3s !important;
     transition-duration: 0.3s !important;
-    -moz-transition-timing-function: ease-in-out !important;
-    -o-transition-timing-function: ease-in-out !important;
-    -webkit-transition-timing-function: ease-in-out !important;
     transition-timing-function: ease-in-out !important;
-  }
-  .status-menu-container .search-container #search-box
-  {
-    -webkit-transition: width 0.3s !important;
-    -moz-transition: width 0.3s !important;
-    transition: width 0.3s !important;
-  }
-  .list-item:hover>tr:first-child
-  {
-    background: var(--highlight) !important;
-   -moz-transition: all 0.4s ease-in-out 0.05s !important;
-   -webkit-transition: all 0.4s ease-in-out 0.05s !important;
-   -o-transition: all 0.4s ease-in-out 0.05s !important;
-   -ms-transition: all 0.4s ease-in-out 0.05s !important;
-   transition: all 0.4s ease-in-out 0.05s !important;
   }
 
 
@@ -474,13 +446,15 @@
   {
     background-color: var(--menu-background) !important;
     width: 1024px !important;
+    height: 46px !important;
   }
   .status-menu-container .status-menu .status-button
   {
     color: var(--menu-text) !important;
     font-family: var(--roboto);
     font-size: 1.5em;
-    padding: 0.75em 0;
+    padding: 0;
+    height: 46px;
   }
   .status-menu-container .status-menu .status-button.on
   {
@@ -497,12 +471,16 @@
     right: 18px;
     font-size: 11px;
   }
+  .status-menu-container .search-container #search-box
+  {
+    transition: width 0.3s !important;
+  }
+  .status-menu-container .search-container #search-box input 
+  {
+    border: 1px solid var(--main-color) !important;
+  }
   /*Colored entries*/
   /*Bars*/
-  .status-menu-container .status-menu .status-button:after
-  {
-    bottom: 2px;
-  }
   .status-button.all_anime.on::after, .status-button.all_anime::after
   {
     background-color: var(--main-color) !important;
@@ -700,6 +678,11 @@
   .list-table .list-table-data .data.volume
   {
     font-size: 1.2em;
+  }
+  .list-item:hover>tr:first-child
+  {
+    background: var(--highlight) !important;
+    transition: all 0.4s ease-in-out 0.05s !important;
   }
   
 
