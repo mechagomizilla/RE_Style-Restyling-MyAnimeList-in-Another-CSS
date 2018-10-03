@@ -2,14 +2,14 @@
 	:root
 	{
 		/*User colors*/
-		--main-color: rgb(0,160,190) !important;
-		--main-background: rgba(0,90,100,0.9) !important;
-		--second-background: rgba(0,70,80,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
+		--main-color: rgb(150,0,0) !important;
+		--main-background: rgba(80,20,20,0.9) !important;
+		--second-background: rgba(65,20,20,0.9) !important;
+		--menu-background: rgba(225,225,225,0.9) !important;
 		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,160,190,0.7);
+		--menu-text: rgb(0,0,0) !important;
+		--dimmer-text: rgba(255,255,255,0.6) !important; /*same as main-text, but transparent*/
+		--highlight: rgba(150,0,0,0.7);
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 		
 
@@ -70,6 +70,17 @@
 		--menu-text: rgb(255,255,255) !important;
 		--dimmer-text: rgba(255,255,255,0.6) !important;
 		--highlight: rgba(200,0,0,0.7);
+		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+
+		Bloodred Alt.
+		--main-color: rgb(150,0,0) !important;
+		--main-background: rgba(80,20,20,0.9) !important;
+		--second-background: rgba(65,20,20,0.9) !important;
+		--menu-background: rgba(225,225,225,0.9) !important;
+		--main-text: rgb(255,255,255) !important;
+		--menu-text: rgb(0,0,0) !important;
+		--dimmer-text: rgba(255,255,255,0.6) !important;
+		--highlight: rgba(150,0,0,0.7);
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
 		Turquoise Ocean
@@ -336,7 +347,6 @@
 	*
 	{
 		text-decoration: none !important;
-		transition: none !important;
 		border: none !important;
 	}
 
