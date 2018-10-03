@@ -2,15 +2,20 @@
   :root
   {
     /*User colors*/
-    --main-color: rgb(150,0,0) !important;
-    --main-background: rgba(80,20,20,0.9) !important;
-    --second-background: rgba(65,20,20,0.9) !important;
-    --menu-background: rgba(225,225,225,0.9) !important;
+    --main-color: rgb(0,160,190) !important;
+    --main-background: rgba(0,90,100,0.9) !important;
+    --second-background: rgba(0,70,80,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important; 
     --main-text: rgb(255,255,255) !important;
-    --menu-text: rgb(0,0,0) !important;
-    --dimmer-text: rgba(255,255,255,0.6) !important; /*same as main-text, but transparent*/
-    --highlight: rgba(150,0,0,0.7);
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,160,190,0.7);
     --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    
+    /*NB: If --menu-background is set to white or very light grey, you should 
+      also set --planto (after the presets, in "Colors for status") 
+      to #a5a5a5 (rather than #c3c3c3) to make the plan to watch/read bar more easily visible.
+      Additionally, --dimmer-text should usually be set to the same color as --main-text, but transparent.*/
     
 
     /*
@@ -102,7 +107,7 @@
     --completed: #26448f !important;
     --onhold: #f9d457 !important;
     --dropped: #a12f31 !important;
-    --planto: #c3c3c3 !important;
+    --planto: #c3c3c3 !important; /*#a5a5a5 can be used as a replacement on white menus*/
     
     /*Background image fit*/
     /*
