@@ -27,7 +27,7 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 <b>*Here's an example of quick customization using Bloodred as a starting point:*</b>
 <pre>
    <code>
-   Bloodred
+   	Bloodred
 		--main-color: rgb(200,0,0) !important;
 		--main-background: rgba(140,20,20,0.9) !important;
 		--second-background: rgba(110,20,20,0.9) !important;
@@ -52,4 +52,4 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 <b>Result:</b>
 ![Bloodred Alt](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Bloodred-Alt.png)
 
-*PS: Here are the links to my anime and manga pages if you want to see live exemples of my styles:* [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
+*PS: Here are the links to my anime and manga lists if you want to see live exemples of my styles:* [Anime list](https://myanimelist.net/animelist/Insanitium?status=7)/[Manga list](https://myanimelist.net/mangalist/Insanitium?status=7)
