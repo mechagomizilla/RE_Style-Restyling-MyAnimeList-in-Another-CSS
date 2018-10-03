@@ -103,6 +103,16 @@
     --onhold: #f9d457 !important;
     --dropped: #a12f31 !important;
     --planto: #c3c3c3 !important;
+    
+    /*Background image fit*/
+    /*
+    Set to 'cover' if you want it to scale depending on the resolution.
+    Set to 'auto' if you want to always use the native resolution (MAL default),
+    for instance if you want to make a mosaic from smaller images.
+    You can also set 'width height' manually in px (pixels) or in %.
+    For more options, check "css background-size" on w3schools.
+    */
+    --background-fit: cover;
 
     /*Fonts*/
     --fonts: 'Helvetica neue', helvetica, arial, sans-serif;
@@ -147,6 +157,7 @@
     color: var(--main-text) !important;
     font-family: var(--fonts);
     font-size: 0.75em;
+    background-size: var(--background-fit);
   }
 
 
