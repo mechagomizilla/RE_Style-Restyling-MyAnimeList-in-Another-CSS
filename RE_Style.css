@@ -1,632 +1,632 @@
-	/*Main color variables*/
-	:root
-	{
-		/*User colors*/
-		--main-color: rgb(150,0,0) !important;
-		--main-background: rgba(80,20,20,0.9) !important;
-		--second-background: rgba(65,20,20,0.9) !important;
-		--menu-background: rgba(225,225,225,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(0,0,0) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important; /*same as main-text, but transparent*/
-		--highlight: rgba(150,0,0,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
-		
+  /*Main color variables*/
+  :root
+  {
+    /*User colors*/
+    --main-color: rgb(150,0,0) !important;
+    --main-background: rgba(80,20,20,0.9) !important;
+    --second-background: rgba(65,20,20,0.9) !important;
+    --menu-background: rgba(225,225,225,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(0,0,0) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important; /*same as main-text, but transparent*/
+    --highlight: rgba(150,0,0,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    
 
-		/*
+    /*
 
-		Preset color schemes
+    Preset color schemes
 
-		Sky and Sea
-		--main-color: rgb(0,100,255) !important;
-		--main-background: rgba(0,50,150,0.9) !important;
-		--second-background: rgba(0,40,130,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,100,255,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Sky and Sea
+    --main-color: rgb(0,100,255) !important;
+    --main-background: rgba(0,50,150,0.9) !important;
+    --second-background: rgba(0,40,130,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,100,255,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Emerald
-		--main-color: rgb(40,200,20) !important;
-		--main-background: rgba(0,80,10,0.9) !important;
-		--second-background: rgba(0,65,10,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(40,200,20,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Emerald
+    --main-color: rgb(40,200,20) !important;
+    --main-background: rgba(0,80,10,0.9) !important;
+    --second-background: rgba(0,65,10,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(40,200,20,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Grapefruit
-		--main-color: rgb(170,0,0) !important;
-		--main-background: rgba(255,85,0,0.9) !important;
-		--second-background: rgba(255,60,0,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(170,0,0,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Grapefruit
+    --main-color: rgb(170,0,0) !important;
+    --main-background: rgba(255,85,0,0.9) !important;
+    --second-background: rgba(255,60,0,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(170,0,0,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Purple Velvet
-		--main-color: rgb(135,0,180) !important;
-		--main-background: rgba(65,0,90,0.9) !important;
-		--second-background: rgba(45,0,70,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(135,0,180,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Purple Velvet
+    --main-color: rgb(135,0,180) !important;
+    --main-background: rgba(65,0,90,0.9) !important;
+    --second-background: rgba(45,0,70,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(135,0,180,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Bloodred
-		--main-color: rgb(200,0,0) !important;
-		--main-background: rgba(140,20,20,0.9) !important;
-		--second-background: rgba(110,20,20,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(200,0,0,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Bloodred
+    --main-color: rgb(200,0,0) !important;
+    --main-background: rgba(140,20,20,0.9) !important;
+    --second-background: rgba(110,20,20,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(200,0,0,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Bloodred Alt.
-		--main-color: rgb(150,0,0) !important;
-		--main-background: rgba(80,20,20,0.9) !important;
-		--second-background: rgba(65,20,20,0.9) !important;
-		--menu-background: rgba(225,225,225,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(0,0,0) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(150,0,0,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Bloodred Alt.
+    --main-color: rgb(150,0,0) !important;
+    --main-background: rgba(80,20,20,0.9) !important;
+    --second-background: rgba(65,20,20,0.9) !important;
+    --menu-background: rgba(225,225,225,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(0,0,0) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(150,0,0,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		Turquoise Ocean
-		--main-color: rgb(0,160,190) !important;
-		--main-background: rgba(0,90,100,0.9) !important;
-		--second-background: rgba(0,70,80,0.9) !important;
-		--menu-background: rgba(30,30,30,0.9) !important;
-		--main-text: rgb(255,255,255) !important;
-		--menu-text: rgb(255,255,255) !important;
-		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(0,160,190,0.7);
-		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+    Turquoise Ocean
+    --main-color: rgb(0,160,190) !important;
+    --main-background: rgba(0,90,100,0.9) !important;
+    --second-background: rgba(0,70,80,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
+    --main-text: rgb(255,255,255) !important;
+    --menu-text: rgb(255,255,255) !important;
+    --dimmer-text: rgba(255,255,255,0.6) !important;
+    --highlight: rgba(0,160,190,0.7);
+    --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
-		*/
-
-
-		/*Colors for status*/
-		--currently: #2db039 !important;
-		--completed: #26448f !important;
-		--onhold: #f9d457 !important;
-		--dropped: #a12f31 !important;
-		--planto: #c3c3c3 !important;
-
-		/*Fonts*/
-		--fonts: arial, sans-serif;
-	}
+    */
 
 
-	/*Changed text highlight*/
-	::selection
-	{
-		background: var(--menu-text) !important;
-		color: var(--main-color) !important;
-	}
+    /*Colors for status*/
+    --currently: #2db039 !important;
+    --completed: #26448f !important;
+    --onhold: #f9d457 !important;
+    --dropped: #a12f31 !important;
+    --planto: #c3c3c3 !important;
+
+    /*Fonts*/
+    --fonts: 'Helvetica neue', helvetica, arial, sans-serif;
+  }
 
 
-	/*Removing text decorations*/
-	*
-	{
-		text-decoration: none !important;
-		border: none !important;
-	}
-
-	/*Global transition effects*/
-	#advanced-options .btn-apply, #advanced-options .btn-clear,
-	.header .header-menu .btn-menu a:hover, .header .header-info a:hover,
-	.header .header-menu .list-menu .icon-menu, .list-menu-float .icon-menu,
-	.list-menu-float .icon-menu .text, .list-menu-float .icon-menu.setting .text,
-	.status-menu-container .status-menu .status-button,
-	.status-menu-container .status-menu .status-button:after, .fa.fa-search:hover,
-	.list-table .list-table-header .header-title .link.sort, input[type="button" i]:hover,
-	input[type="submit" i]:hover, input[type="reset" i]:hover,
-	input[type="file" i]::-webkit-file-upload-button:hover, button:hover
-	{
-		transition-property: all !important;
-		transition-duration: 0.3s !important;
-		transition-timing-function: ease-in-out !important;
-	}
+  /*Changed text highlight*/
+  ::selection
+  {
+    background: var(--menu-text) !important;
+    color: var(--main-color) !important;
+  }
 
 
-	/*Body*/
-	body
-	{
-		color: var(--main-text) !important;
-		font-family: var(--fonts);
-		font-size: 0.75em;
-	}
+  /*Removing text decorations*/
+  *
+  {
+    text-decoration: none !important;
+    border: none !important;
+  }
+
+  /*Global transition effects*/
+  #advanced-options .btn-apply, #advanced-options .btn-clear,
+  .header .header-menu .btn-menu a:hover, .header .header-info a:hover,
+  .header .header-menu .list-menu .icon-menu, .list-menu-float .icon-menu,
+  .list-menu-float .icon-menu .text, .list-menu-float .icon-menu.setting .text,
+  .status-menu-container .status-menu .status-button,
+  .status-menu-container .status-menu .status-button:after, .fa.fa-search:hover,
+  .list-table .list-table-header .header-title .link.sort, input[type="button" i]:hover,
+  input[type="submit" i]:hover, input[type="reset" i]:hover,
+  input[type="file" i]::-webkit-file-upload-button:hover, button:hover
+  {
+    transition-property: all !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease-in-out !important;
+  }
 
 
-	/*Header gradient*/
-	body:before
-	{
-		content: " ";
-		width: 100%;
-		height: 100px;
-		position: absolute;
-		z-index: -1;
-		top: 0;
-		left: 0;
-		background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0)) repeat-x top center scroll;
-	}
+  /*Body*/
+  body
+  {
+    color: var(--main-text) !important;
+    font-family: var(--fonts);
+    font-size: 0.75em;
+  }
 
 
-	/*Header*/
-	.header .header-title
-	{
-		background-image: url("https://myanimelist.net/img/pc/ownlist/logo_mal.png");
-	}
-	.header .header-menu .btn-menu,
-	.header .header-menu .btn-menu a
-	{
-		color: white !important;
-		font-size: 16px;
-	}
-	.header .header-info,
-	.header .header-info a
-	{
-		color: white !important;
-		font-size: 1em
-	}
-	.header .header-menu .btn-menu a:hover,
-	.header .header-info a:hover
-	{
-		color: var(--main-color) !important;
-	}
-	.header .header-menu .list-menu
-	{
-		background-color: var(--menu-background) !important;
-	}
-	.header .header-menu .list-menu .icon-menu svg.icon
-	{
-		fill: var(--menu-text) !important;
-	}
-	.header .header-menu .list-menu .icon-menu
-	{
-		color: var(--menu-text) !important;
-		background-color: var(--menu-background) !important;
-	}
-	.header .header-menu .list-menu .icon-menu svg.icon:hover
-	{
-		fill: var(--main-text) !important;
-	}
-	.header .header-menu .list-menu .icon-menu:hover
-	{
-		color: var(--main-text) !important;
-		background-color: var(--main-color) !important;
-	}
+  /*Header gradient*/
+  body:before
+  {
+    content: " ";
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0)) repeat-x top center scroll;
+  }
 
 
-	/*Proper z-index for viewing in resized windows*/
-	.header
-	{
-		z-index: 200 !important;
-	}
-	.list-container
-	{
-		z-index: 300 !important;
-	}
-	.list-menu-float
-	{
-		z-index: 500 !important;
-	}
+  /*Header*/
+  .header .header-title
+  {
+    background-image: url("https://myanimelist.net/img/pc/ownlist/logo_mal.png");
+  }
+  .header .header-menu .btn-menu,
+  .header .header-menu .btn-menu a
+  {
+    color: white !important;
+    font-size: 16px;
+  }
+  .header .header-info,
+  .header .header-info a
+  {
+    color: white !important;
+    font-size: 1em
+  }
+  .header .header-menu .btn-menu a:hover,
+  .header .header-info a:hover
+  {
+    color: var(--main-color) !important;
+  }
+  .header .header-menu .list-menu
+  {
+    background-color: var(--menu-background) !important;
+  }
+  .header .header-menu .list-menu .icon-menu svg.icon
+  {
+    fill: var(--menu-text) !important;
+  }
+  .header .header-menu .list-menu .icon-menu
+  {
+    color: var(--menu-text) !important;
+    background-color: var(--menu-background) !important;
+  }
+  .header .header-menu .list-menu .icon-menu svg.icon:hover
+  {
+    fill: var(--main-text) !important;
+  }
+  .header .header-menu .list-menu .icon-menu:hover
+  {
+    color: var(--main-text) !important;
+    background-color: var(--main-color) !important;
+  }
 
 
-	/*Cover image*/
-	.cover-block .image-container .btn-list-setting
-	{
-		display: none !important;
-		font-family: var(--fonts);
-	}
+  /*Proper z-index for viewing in resized windows*/
+  .header
+  {
+    z-index: 200 !important;
+  }
+  .list-container
+  {
+    z-index: 300 !important;
+  }
+  .list-menu-float
+  {
+    z-index: 500 !important;
+  }
 
 
-	/*SVG*/
-	.list-menu-float .icon-menu svg.icon
-	{
-		fill: var(--main-color) !important;
-	}
-	.list-menu-float .icon-menu:hover svg.icon
-	{
-		fill: var(--menu-background) !important;
-	}
+  /*Cover image*/
+  .cover-block .image-container .btn-list-setting
+  {
+    display: none !important;
+    font-family: var(--fonts);
+  }
 
 
-	/*Sidebar*/
-	.list-menu-float
-	{
-		border: var(--menu-background) 1px solid !important;
-	}
-	.list-menu-float .icon-menu .text
-	{
-		color: var(--main-text) !important;
-		font-family: var(--fonts);
-	}
-	.list-menu-float .icon-menu
-	{
-		background-color: var(--menu-background) !important;
-	}
-	.list-menu-float .icon-menu:not(.profile):hover
-	{
-		background-color: var(--main-color) !important;
-	}
-	.list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
-	{
-		background-color: var(--menu-background) !important;
-	}
-	.list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
-	{
-		color: var(--main-text) !important;
-	}
-	.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
-	.list-menu-float .icon-menu.setting:hover .text .link-style-setting
-	{
-		background-color: var(--main-color) !important;
-	}
-	.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
-		border-top: 0px;
-	}
-	
-
-	/*Status menu*/
-	/*Status buttons*/
-	.status-menu-container
-	{
-		background-color: var(--menu-background) !important;
-		width: 1024px !important;
-		height: 46px !important;
-	}
-	.status-menu-container .status-menu .status-button
-	{
-		color: var(--menu-text) !important;
-		font-family: var(--fonts);
-		font-size: 1.5em;
-		padding: 0;
-		height: 46px;
-	}
-	.status-menu-container .status-menu .status-button.on
-	{
-		color: var(--main-color)!important;
-	}
-	/*Search box*/
-	.fa.fa-search
-	{
-		color: var(--menu-text) !important;
-	}
-	.status-menu-container .search-container
-	{
-		position: absolute;
-		right: 18px;
-		font-size: 11px;
-	}
-	.status-menu-container .search-container #search-box
-	{
-		transition: width 0.3s !important;
-	}
-	.status-menu-container .search-container #search-box input 
-	{
-		border: 1px solid var(--main-color) !important;
-	}
-	/*Colored entries*/
-	/*Bars*/
-	.status-button.all_anime.on::after, .status-button.all_anime::after
-	{
-		background-color: var(--main-color) !important;
-	}
-	.status-button.reading.on::after, .status-button.reading::after,
-	.status-button.watching.on::after, .status-button.watching::after
-	{
-		background-color: var(--currently) !important;
-	}
-	.status-button.completed.on::after, .status-button.completed::after
-	{
-		background-color: var(--completed) !important;
-	}
-	.status-button.onhold.on::after, .status-button.onhold::after
-	{
-		background-color: var(--onhold) !important;
-	}
-	.status-button.dropped.on::after, a.status-button.dropped::after
-	{
-		background-color: var(--dropped) !important;
-	}
-	.status-button.plantowatch::after, .status-button.plantowatch.on::after,
-	.status-button.plantoread::after, .status-button.plantoread.on::after
-	{
-		background-color: var(--planto) !important;
-	}
-	/*Links*/
-	.status-button.all_anime.on:hover, .status-button.all_anime:hover,
-	.status-button.reading.on:hover, .status-button.reading:hover,
-	.status-button.watching.on:hover, .status-button.watching:hover,
-	.status-button.completed.on:hover, .status-button.completed:hover,
-	.status-button.onhold.on:hover, .status-button.onhold:hover,
-	.status-button.dropped.on:hover, a.status-button.dropped:hover,
-	.status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
-	.status-button.plantoread:hover, .status-button.plantoread.on:hover,
-	.fa.fa-search:hover
-	{
-		color: var(--main-color) !important;;
-	}
+  /*SVG*/
+  .list-menu-float .icon-menu svg.icon
+  {
+    fill: var(--main-color) !important;
+  }
+  .list-menu-float .icon-menu:hover svg.icon
+  {
+    fill: var(--menu-background) !important;
+  }
 
 
-	.list-container
-	{
-		background-color: transparent !important;
-		border: none !important;
-		width: 1024px !important;
-	}
+  /*Sidebar*/
+  .list-menu-float
+  {
+    border: var(--menu-background) 1px solid !important;
+  }
+  .list-menu-float .icon-menu .text
+  {
+    color: var(--main-text) !important;
+    font-family: var(--fonts);
+  }
+  .list-menu-float .icon-menu
+  {
+    background-color: var(--menu-background) !important;
+  }
+  .list-menu-float .icon-menu:not(.profile):hover
+  {
+    background-color: var(--main-color) !important;
+  }
+  .list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
+  {
+    background-color: var(--menu-background) !important;
+  }
+  .list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
+  {
+    color: var(--main-text) !important;
+  }
+  .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+  .list-menu-float .icon-menu.setting:hover .text .link-style-setting
+  {
+    background-color: var(--main-color) !important;
+  }
+  .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    border-top: 0px;
+  }
+  
+
+  /*Status menu*/
+  /*Status buttons*/
+  .status-menu-container
+  {
+    background-color: var(--menu-background) !important;
+    width: 1024px !important;
+    height: 46px !important;
+  }
+  .status-menu-container .status-menu .status-button
+  {
+    color: var(--menu-text) !important;
+    font-family: var(--fonts);
+    font-size: 1.5em;
+    padding: 0;
+    height: 46px;
+  }
+  .status-menu-container .status-menu .status-button.on
+  {
+    color: var(--main-color)!important;
+  }
+  /*Search box*/
+  .fa.fa-search
+  {
+    color: var(--menu-text) !important;
+  }
+  .status-menu-container .search-container
+  {
+    position: absolute;
+    right: 18px;
+    font-size: 11px;
+  }
+  .status-menu-container .search-container #search-box
+  {
+    transition: width 0.3s !important;
+  }
+  .status-menu-container .search-container #search-box input 
+  {
+    border: 1px solid var(--main-color) !important;
+  }
+  /*Colored entries*/
+  /*Bars*/
+  .status-button.all_anime.on::after, .status-button.all_anime::after
+  {
+    background-color: var(--main-color) !important;
+  }
+  .status-button.reading.on::after, .status-button.reading::after,
+  .status-button.watching.on::after, .status-button.watching::after
+  {
+    background-color: var(--currently) !important;
+  }
+  .status-button.completed.on::after, .status-button.completed::after
+  {
+    background-color: var(--completed) !important;
+  }
+  .status-button.onhold.on::after, .status-button.onhold::after
+  {
+    background-color: var(--onhold) !important;
+  }
+  .status-button.dropped.on::after, a.status-button.dropped::after
+  {
+    background-color: var(--dropped) !important;
+  }
+  .status-button.plantowatch::after, .status-button.plantowatch.on::after,
+  .status-button.plantoread::after, .status-button.plantoread.on::after
+  {
+    background-color: var(--planto) !important;
+  }
+  /*Links*/
+  .status-button.all_anime.on:hover, .status-button.all_anime:hover,
+  .status-button.reading.on:hover, .status-button.reading:hover,
+  .status-button.watching.on:hover, .status-button.watching:hover,
+  .status-button.completed.on:hover, .status-button.completed:hover,
+  .status-button.onhold.on:hover, .status-button.onhold:hover,
+  .status-button.dropped.on:hover, a.status-button.dropped:hover,
+  .status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
+  .status-button.plantoread:hover, .status-button.plantoread.on:hover,
+  .fa.fa-search:hover
+  {
+    color: var(--main-color) !important;;
+  }
 
 
-	/*Header for list*/
-	.list-unit .list-status-title .text
-	{
-		font-family: var(--fonts);
-		color: var(--menu-text) !important;
-		font-size: 1.6em;
-	}
-	.list-unit .list-status-title
-	{
-		background-color: var(--menu-background) !important;
-	}
-	.list-table > tbody:nth-of-type(1)
-	{
-		background: none !important;
-	}
-	.list-table .list-table-header .header-title
-	{
-		background: var(--menu-background) 
-			url(https://myanimelist.net/img/pc/ownlist/bar-table-header-dark.png) 
-			no-repeat right 6px / 1px 14px;
-		height: 26px;
-		border: none !important;
-	}
-	.list-table .list-table-header .header-title,
-	.list-table .list-table-header .header-title .link,
-	.list-table .list-table-header .header-title .link.sort
-	{
-		color: var(--menu-text) !important;
-	}
-	.list-table .list-table-header .header-title .link.sort:hover
-	{
-		color: var(--main-color) !important;
-	}
-	.list-table .list-table-header .header-title, .list-table .list-table-header .header-title .link
-	{
-		font-size: 1em;
-	}
-	.list-unit .list-status-title .stats a
-	{
-		color: var(--menu-text) !important;
-	}
-	.list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
-	{
-		color: var(--main-color) !important;
-	}
-	.list-unit .list-stats
-	{
-		background: var(--menu-background) !important;
-		color: var(--menu-text) !important;
-	}
-
-	/*Filtering*/
-	#advanced-options
-	{
-		background: var(--main-background) !important;
-		font-family: var(--fonts);
-		color: var(--main-text) !important;
-	}
-	#advanced-options input[type="text"], #advanced-options .filter-widget.title input[type="text"]
-	{
-		background: white !important;
-		color: black !important;
-	}
-	#advanced-options .sort-widget .widget-header,
-	#advanced-options .filter-widget .widget-header
-	{
-		display: inline-block;
-		width: 110px;
-		font-size: 1em;
-		font-family: var(--fonts);
-	}
-	#advanced-options .btn-apply, #advanced-options .btn-clear, #advanced-options .sort-widget input[type=radio]:checked + label
-	{
-		color: var(--main-text);
-		background-color: var(--main-color) !important;
-	}
-	#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
-	{
-		filter: brightness(110%) !important;
-	}
+  .list-container
+  {
+    background-color: transparent !important;
+    border: none !important;
+    width: 1024px !important;
+  }
 
 
-	/*Prompt*/
-	#fancybox-outer 
-	{
-		background: var(--menu-background) !important;
-	}
-	#fancybox-inner 
-	{
-		color: var(--menu-text) !important;
-	}
-	input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button 
-	{
-		color: var(--main-text) !important;
-		background-color: var(--main-color) !important;
-		cursor: pointer !important;
-		padding: 2px 6px 3px !important;
-		border-radius: 4px !important;
-	}
-	input[type="button" i]:hover, input[type="submit" i]:hover, input[type="reset" i]:hover, input[type="file" i]::-webkit-file-upload-button:hover, button:hover
-	{
-		filter: brightness(110%) !important;
-	}
+  /*Header for list*/
+  .list-unit .list-status-title .text
+  {
+    font-family: var(--fonts);
+    color: var(--menu-text) !important;
+    font-size: 1.6em;
+  }
+  .list-unit .list-status-title
+  {
+    background-color: var(--menu-background) !important;
+  }
+  .list-table > tbody:nth-of-type(1)
+  {
+    background: none !important;
+  }
+  .list-table .list-table-header .header-title
+  {
+    background: var(--menu-background) 
+      url(https://myanimelist.net/img/pc/ownlist/bar-table-header-dark.png) 
+      no-repeat right 6px / 1px 14px;
+    height: 26px;
+    border: none !important;
+  }
+  .list-table .list-table-header .header-title,
+  .list-table .list-table-header .header-title .link,
+  .list-table .list-table-header .header-title .link.sort
+  {
+    color: var(--menu-text) !important;
+  }
+  .list-table .list-table-header .header-title .link.sort:hover
+  {
+    color: var(--main-color) !important;
+  }
+  .list-table .list-table-header .header-title, .list-table .list-table-header .header-title .link
+  {
+    font-size: 1em;
+  }
+  .list-unit .list-status-title .stats a
+  {
+    color: var(--menu-text) !important;
+  }
+  .list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
+  {
+    color: var(--main-color) !important;
+  }
+  .list-unit .list-stats
+  {
+    background: var(--menu-background) !important;
+    color: var(--menu-text) !important;
+  }
 
-	
-	/*Textarea*/
-	textarea, .list-table .list-table-data .tags textarea, .status-menu-container .search-container #search-box input, input
-	{
-		background-color: var(--menu-background) !important;
-		color: var(--menu-text) !important;
-	}
-
-
-	/*More*/
-	.list-table .more-info .more-content a, .list-table .more-info .more-content a
-	{
-		color: var(--dimmer-text) !important;
-	}
-	.list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
-	{
-		color: var(--main-text) !important;
-		text-shadow: var(--highlight-shadow) !important;
-	}
-
-
-	/*List*/
-	.list-item:nth-of-type(2n)
-	{
-		background: var(--main-background) !important;
-	}
-	.list-item:nth-of-type(2n + 1)
-	{
-		background: var(--second-background) !important;
-	}
-	.list-table .list-table-data .data.title .link, 
-	.list-table .list-table-data .data.progress, 
-	.list-table .list-table-data .data.chapter, 
-	.list-table .list-table-data .data.volume
-	{
-		font-size: 1.2em;
-		font-weight: bold;
-	}
-	.list-table .list-table-data .data.score .link
-	{
-		font-size: 1.4em;
-		font-weight: bold;
-	}
-	.list-table .list-table-data .data.title .add-edit-more
-	{
-		font-size: 0.75em;
-	}
-	.list-item:hover>tr:first-child
-	{
-		background: var(--highlight) !important;
-		transition: all 0.4s ease-in-out 0.05s !important;
-	}
-	
-
-	/*List links*/
-	.list-table .list-table-data .data a
-	{
-		color: var(--main-text) !important;
-	}
-	.list-table .list-table-data .data a:hover
-	{
-		color: var(--main-text) !important;
-		text-shadow: var(--highlight-shadow) ;
-	}
+  /*Filtering*/
+  #advanced-options
+  {
+    background: var(--main-background) !important;
+    font-family: var(--fonts);
+    color: var(--main-text) !important;
+  }
+  #advanced-options input[type="text"], #advanced-options .filter-widget.title input[type="text"]
+  {
+    background: white !important;
+    color: black !important;
+  }
+  #advanced-options .sort-widget .widget-header,
+  #advanced-options .filter-widget .widget-header
+  {
+    display: inline-block;
+    width: 110px;
+    font-size: 1em;
+    font-family: var(--fonts);
+  }
+  #advanced-options .btn-apply, #advanced-options .btn-clear, #advanced-options .sort-widget input[type=radio]:checked + label
+  {
+    color: var(--main-text);
+    background-color: var(--main-color) !important;
+  }
+  #advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
+  {
+    filter: brightness(110%) !important;
+  }
 
 
-	/*Tags edit button*/
-	.list-table .list-table-data .tags .edit
-	{
-		color: var(--dimmer-text) !important;
-		font-family: var(--fonts);
-		font-size: 0.75em;
-	}
-	.list-table .list-table-data .tags .edit:hover
-	{
-		color: var(--main-text) !important;
-		text-shadow: var(--highlight-shadow) !important;
-	}
+  /*Prompt*/
+  #fancybox-outer 
+  {
+    background: var(--menu-background) !important;
+  }
+  #fancybox-inner 
+  {
+    color: var(--menu-text) !important;
+  }
+  input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button 
+  {
+    color: var(--main-text) !important;
+    background-color: var(--main-color) !important;
+    cursor: pointer !important;
+    padding: 2px 6px 3px !important;
+    border-radius: 4px !important;
+  }
+  input[type="button" i]:hover, input[type="submit" i]:hover, input[type="reset" i]:hover, input[type="file" i]::-webkit-file-upload-button:hover, button:hover
+  {
+    filter: brightness(110%) !important;
+  }
 
-	/*Title status*/
-	.list-table .list-table-data .data.title .rewatching,
-	.list-table .list-table-data .data.title .rereading,
-	.list-table .list-table-data .data.title .content-status
-	{
-		color: var(--dimmer-text) !important;
-		font-style: italic;
-		font-size: 0.9em;
-	}
-
-	/*Watch icon*/
-	.list-table .list-table-data .data .icon-watch,
-	.list-table .list-table-data .data .icon-watch-pv
-	{
-		display: none !important;
-	}
-
-
-	/*Colored bar for entries*/
-	.list-table .list-table-data .data.status.reading,
-	.list-table .list-table-data .data.status.watching
-	{
-		background-color: var(--currently) !important;
-	}
-	.list-table .list-table-data .data.status.completed
-	{
-		background-color: var(--completed) !important;
-	}
-	.list-table .list-table-data .data.status.onhold
-	{
-		background-color: var(--onhold) !important;
-	}
-	.list-table .list-table-data .data.status.dropped
-	{
-		background-color: var(--dropped) !important;
-	}
-	.list-table .list-table-data .data.status.plantoread, 
-	.list-table .list-table-data .data.status.plantowatch 
-	{
-		background-color: var(--planto) !important;
-	}
+  
+  /*Textarea*/
+  textarea, .list-table .list-table-data .tags textarea, .status-menu-container .search-container #search-box input, input
+  {
+    background-color: var(--menu-background) !important;
+    color: var(--menu-text) !important;
+  }
 
 
-	/*Cover thumbnails*/
-	.list-table .list-table-data .data.image .image
-	{
-		width: 96px;
-		height: 136px;
-		object-fit: cover;
-		box-sizing: border-box;
-		max-height: 44px;
-		min-height: 44px;
-		max-width: 44px;
-		min-width: 44px;
-		padding: 0;
-		border: #FFF 0px solid !important;
-		border-radius: 5.5px;
-		box-shadow: 0 0 0.3em black, 0 0 0.3em black;
-	}
+  /*More*/
+  .list-table .more-info .more-content a, .list-table .more-info .more-content a
+  {
+    color: var(--dimmer-text) !important;
+  }
+  .list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
+  {
+    color: var(--main-text) !important;
+    text-shadow: var(--highlight-shadow) !important;
+  }
 
 
-	/*Footer*/
-	#footer-block
-	{
-		background: var(--menu-background) !important;
-		font-family: var(--fonts);
-	}
-	
-	#copyright {
-		color: var(--menu-text) !important;
-		font-size: 1em;
-	}
+  /*List*/
+  .list-item:nth-of-type(2n)
+  {
+    background: var(--main-background) !important;
+  }
+  .list-item:nth-of-type(2n + 1)
+  {
+    background: var(--second-background) !important;
+  }
+  .list-table .list-table-data .data.title .link, 
+  .list-table .list-table-data .data.progress, 
+  .list-table .list-table-data .data.chapter, 
+  .list-table .list-table-data .data.volume
+  {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .list-table .list-table-data .data.score .link
+  {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .list-table .list-table-data .data.title .add-edit-more
+  {
+    font-size: 0.75em;
+  }
+  .list-item:hover>tr:first-child
+  {
+    background: var(--highlight) !important;
+    transition: all 0.4s ease-in-out 0.05s !important;
+  }
+  
 
-	#copyright:after 
-	{
-		content: " Theme by Insanitium.";
-	}
+  /*List links*/
+  .list-table .list-table-data .data a
+  {
+    color: var(--main-text) !important;
+  }
+  .list-table .list-table-data .data a:hover
+  {
+    color: var(--main-text) !important;
+    text-shadow: var(--highlight-shadow) ;
+  }
+
+
+  /*Tags edit button*/
+  .list-table .list-table-data .tags .edit
+  {
+    color: var(--dimmer-text) !important;
+    font-family: var(--fonts);
+    font-size: 0.75em;
+  }
+  .list-table .list-table-data .tags .edit:hover
+  {
+    color: var(--main-text) !important;
+    text-shadow: var(--highlight-shadow) !important;
+  }
+
+  /*Title status*/
+  .list-table .list-table-data .data.title .rewatching,
+  .list-table .list-table-data .data.title .rereading,
+  .list-table .list-table-data .data.title .content-status
+  {
+    color: var(--dimmer-text) !important;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  /*Watch icon*/
+  .list-table .list-table-data .data .icon-watch,
+  .list-table .list-table-data .data .icon-watch-pv
+  {
+    display: none !important;
+  }
+
+
+  /*Colored bar for entries*/
+  .list-table .list-table-data .data.status.reading,
+  .list-table .list-table-data .data.status.watching
+  {
+    background-color: var(--currently) !important;
+  }
+  .list-table .list-table-data .data.status.completed
+  {
+    background-color: var(--completed) !important;
+  }
+  .list-table .list-table-data .data.status.onhold
+  {
+    background-color: var(--onhold) !important;
+  }
+  .list-table .list-table-data .data.status.dropped
+  {
+    background-color: var(--dropped) !important;
+  }
+  .list-table .list-table-data .data.status.plantoread, 
+  .list-table .list-table-data .data.status.plantowatch 
+  {
+    background-color: var(--planto) !important;
+  }
+
+
+  /*Cover thumbnails*/
+  .list-table .list-table-data .data.image .image
+  {
+    width: 96px;
+    height: 136px;
+    object-fit: cover;
+    box-sizing: border-box;
+    max-height: 44px;
+    min-height: 44px;
+    max-width: 44px;
+    min-width: 44px;
+    padding: 0;
+    border: #FFF 0px solid !important;
+    border-radius: 5.5px;
+    box-shadow: 0 0 0.3em black, 0 0 0.3em black;
+  }
+
+
+  /*Footer*/
+  #footer-block
+  {
+    background: var(--menu-background) !important;
+    font-family: var(--fonts);
+  }
+  
+  #copyright {
+    color: var(--menu-text) !important;
+    font-size: 1em;
+  }
+
+  #copyright:after 
+  {
+    content: " Theme by Insanitium.";
+  }
