@@ -27,7 +27,7 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 <b>*Here's an example of quick customization using Bloodred as a starting point:*</b>
 <pre>
    <code>
-   	Bloodred
+   	/*Bloodred*/
 		--main-color: rgb(200,0,0) !important;
 		--main-background: rgba(140,20,20,0.9) !important;
 		--second-background: rgba(110,20,20,0.9) !important;
@@ -38,7 +38,7 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 		--highlight: rgba(200,0,0,0.7);
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 		
-	Bloodred Alt.
+	/*Bloodred Alt.*/
 		--main-color: rgb(150,0,0) !important;
 		--main-background: rgba(80,20,20,0.9) !important;
 		--second-background: rgba(65,20,20,0.9) !important;
