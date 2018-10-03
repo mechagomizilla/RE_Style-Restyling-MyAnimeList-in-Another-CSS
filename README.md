@@ -2,9 +2,9 @@
 
 Welcome to my MAL Re_Style. It's basically a third iteration of the style sheet I've been using since 2012. I don't like when style sheets are fragmented, hard to understand, or when they break with every MAL update, so I created to most customizable, yet conventional one I could come up with. Yes, it's a choice. I even chose not to add resizable covers because I knew they would break eventually. The MAL blackout and the subsequent rule changes proved me right.
 
-If you want to use it, all you have to do is copy all the content of the CSS into your list's custom CSS box. You can then choose a preset color palette from those I have included or choose your own colors. Anyone who knows what they're doing can go even deeper, but I'm not here to give a tutorial; there's plenty of them around. NB: It's <b>MODERN ONLY!</b>
+If you want to use it, all you have to do is copy all the content of the CSS into your list's custom CSS box. You can then choose a preset colour palette from those I have included or choose your own colours. Anyone who knows what they're doing can go even deeper, but I'm not here to give a tutorial; there's plenty of them around. NB: It's <b>MODERN ONLY!</b>
 
-*Choose from one of these or create your own color palette!*
+*Choose from one of these or create your own colour palette!*
 
 <b>Turquoise Ocean:</b>
 ![Turquoise Ocean](https://raw.githubusercontent.com/InsanityDevice/RE_Style-Restyling-MyAnimeList-in-Another-CSS/master/Screenshots/RE_Turquoise-Ocean.png)
