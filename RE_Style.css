@@ -40,14 +40,14 @@
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
 		Grapefruit
-		--main-color: rgb(200,0,0) !important;
+		--main-color: rgb(170,0,0) !important;
 		--main-background: rgba(255,85,0,0.9) !important;
 		--second-background: rgba(255,60,0,0.9) !important;
 		--menu-background: rgba(30,30,30,0.9) !important;
 		--main-text: rgb(255,255,255) !important;
 		--menu-text: rgb(255,255,255) !important;
 		--dimmer-text: rgba(255,255,255,0.6) !important;
-		--highlight: rgba(200,0,0,0.7);
+		--highlight: rgba(170,0,0,0.7);
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
 
 		Purple Velvet
