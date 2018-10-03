@@ -37,6 +37,7 @@ If you want to use it, all you have to do is copy all the content of the CSS int
 		--dimmer-text: rgba(255,255,255,0.6) !important;
 		--highlight: rgba(200,0,0,0.7);
 		--highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
+		
 	Bloodred Alt.
 		--main-color: rgb(150,0,0) !important;
 		--main-background: rgba(80,20,20,0.9) !important;
