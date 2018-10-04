@@ -136,23 +136,8 @@
   *
   {
     text-decoration: none !important;
+    transition: none !important;
     border: none !important;
-  }
-
-  /*Global transition effects*/
-  #advanced-options .btn-apply, #advanced-options .btn-clear,
-  .header .header-menu .btn-menu a:hover, .header .header-info a:hover,
-  .header .header-menu .list-menu .icon-menu, .list-menu-float .icon-menu,
-  .list-menu-float .icon-menu .text, .list-menu-float .icon-menu.setting .text,
-  .status-menu-container .status-menu .status-button,
-  .status-menu-container .status-menu .status-button:after, .fa.fa-search:hover,
-  .list-table .list-table-header .header-title .link.sort, input[type="button" i]:hover,
-  input[type="submit" i]:hover, input[type="reset" i]:hover,
-  input[type="file" i]::-webkit-file-upload-button:hover, button:hover
-  {
-    transition-property: all !important;
-    transition-duration: 0.3s !important;
-    transition-timing-function: ease-in-out !important;
   }
 
 
@@ -197,10 +182,16 @@
     color: white !important;
     font-size: 1em
   }
+  .header .header-menu .btn-menu a, 
+  .header .header-menu .header-info a
+  {
+    transition: all 0.3s ease-in-out !important;
+  }
   .header .header-menu .btn-menu a:hover,
   .header .header-info a:hover
   {
     color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .header .header-menu .list-menu
   {
@@ -209,20 +200,24 @@
   .header .header-menu .list-menu .icon-menu svg.icon
   {
     fill: var(--menu-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .header .header-menu .list-menu .icon-menu
   {
     color: var(--menu-text) !important;
     background-color: var(--menu-background) !important;
+    transition: all 0.3s ease-in-out !important;
   }
-  .header .header-menu .list-menu .icon-menu svg.icon:hover
+  .header .header-menu .list-menu .icon-menu:hover svg.icon
   {
     fill: var(--main-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .header .header-menu .list-menu .icon-menu:hover
   {
     color: var(--main-text) !important;
     background-color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
 
 
@@ -249,17 +244,6 @@
   }
 
 
-  /*SVG*/
-  .list-menu-float .icon-menu svg.icon
-  {
-    fill: var(--main-color) !important;
-  }
-  .list-menu-float .icon-menu:hover svg.icon
-  {
-    fill: var(--menu-background) !important;
-  }
-
-
   /*Sidebar*/
   .list-menu-float
   {
@@ -269,14 +253,27 @@
   {
     color: var(--main-text) !important;
     font-family: var(--fonts);
+    transition: all 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu
   {
     background-color: var(--menu-background) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu:not(.profile):hover
   {
     background-color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .list-menu-float .icon-menu svg.icon
+  {
+    fill: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .list-menu-float .icon-menu:hover svg.icon
+  {
+    fill: var(--main-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
   {
@@ -285,11 +282,13 @@
   .list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
   {
     color: var(--main-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu.setting:hover .text .link-list-setting,
   .list-menu-float .icon-menu.setting:hover .text .link-style-setting
   {
     background-color: var(--main-color) !important;
+    transition: width 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
     border-top: 0px;
@@ -320,6 +319,12 @@
   .fa.fa-search
   {
     color: var(--menu-text) !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .fa.fa-search:hover
+  {
+    color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-menu-container .search-container
   {
@@ -340,44 +345,54 @@
   .status-button.all_anime.on::after, .status-button.all_anime::after
   {
     background-color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-button.reading.on::after, .status-button.reading::after,
   .status-button.watching.on::after, .status-button.watching::after
   {
     background-color: var(--currently) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-button.completed.on::after, .status-button.completed::after
   {
     background-color: var(--completed) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-button.onhold.on::after, .status-button.onhold::after
   {
     background-color: var(--onhold) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-button.dropped.on::after, a.status-button.dropped::after
   {
     background-color: var(--dropped) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .status-button.plantowatch::after, .status-button.plantowatch.on::after,
   .status-button.plantoread::after, .status-button.plantoread.on::after
   {
     background-color: var(--planto) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   /*Links*/
-  .status-button.all_anime.on:hover, .status-button.all_anime:hover,
-  .status-button.reading.on:hover, .status-button.reading:hover,
-  .status-button.watching.on:hover, .status-button.watching:hover,
-  .status-button.completed.on:hover, .status-button.completed:hover,
-  .status-button.onhold.on:hover, .status-button.onhold:hover,
-  .status-button.dropped.on:hover, a.status-button.dropped:hover,
-  .status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
-  .status-button.plantoread:hover, .status-button.plantoread.on:hover,
-  .fa.fa-search:hover
+  .status-button.all_anime:hover, .status-button.reading:hover,
+  .status-button.watching:hover, .status-button.completed:hover,
+  .status-button.onhold:hover, a.status-button.dropped:hover,
+  .status-button.plantowatch:hover, .status-button.plantoread:hover
   {
-    color: var(--main-color) !important;;
+    color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .status-button.all_anime, .status-button.reading,
+  .status-button.watching, .status-button.completed,
+  .status-button.onhold, a.status-button.dropped,
+  .status-button.plantowatch, .status-button.plantoread
+  {
+    transition: all 0.3s ease-in-out !important;
   }
 
 
+  /*Container*/
   .list-container
   {
     background-color: transparent !important;
@@ -415,9 +430,14 @@
   {
     color: var(--menu-text) !important;
   }
+  .list-table .list-table-header .header-title .link.sort
+  {
+    transition: all 0.3s ease-in-out !important;
+  }
   .list-table .list-table-header .header-title .link.sort:hover
   {
     color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-table .list-table-header .header-title, .list-table .list-table-header .header-title .link
   {
@@ -426,10 +446,12 @@
   .list-unit .list-status-title .stats a
   {
     color: var(--menu-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
-  .list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
+  .list-unit .list-status-title .stats a:hover
   {
     color: var(--main-color) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-unit .list-stats
   {
@@ -462,9 +484,15 @@
     color: var(--main-text);
     background-color: var(--main-color) !important;
   }
+  #advanced-options .btn-apply, #advanced-options .btn-clear
+  {
+    transition: all 0.15s ease-in-out !important;
+  }
   #advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
   {
     filter: brightness(110%) !important;
+    text-shadow: var(--highlight-shadow);
+    transition: all 0.15s ease-in-out !important;
   }
 
 
@@ -484,10 +512,13 @@
     cursor: pointer !important;
     padding: 2px 6px 3px !important;
     border-radius: 4px !important;
+    transition: all 0.15s ease-in-out !important;
   }
   input[type="button" i]:hover, input[type="submit" i]:hover, input[type="reset" i]:hover, input[type="file" i]::-webkit-file-upload-button:hover, button:hover
   {
     filter: brightness(110%) !important;
+    text-shadow: var(--highlight-shadow);
+    transition: all 0.15s ease-in-out !important;
   }
 
   
@@ -503,11 +534,13 @@
   .list-table .more-info .more-content a, .list-table .more-info .more-content a
   {
     color: var(--dimmer-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
   {
     color: var(--main-text) !important;
     text-shadow: var(--highlight-shadow) !important;
+    transition: all 0.3s ease-in-out !important;
   }
 
 
@@ -548,11 +581,20 @@
   .list-table .list-table-data .data a
   {
     color: var(--main-text) !important;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-table .list-table-data .data a:hover
   {
-    color: var(--main-text) !important;
     text-shadow: var(--highlight-shadow) ;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .list-table .list-table-data a.edit-disabled:hover
+  {
+    text-shadow: none !important;
+  }
+  .list-table .list-table-data a:not(.edit-disabled):hover
+  {
+    color: var(--main-text) !important;
   }
 
 
@@ -562,11 +604,13 @@
     color: var(--dimmer-text) !important;
     font-family: var(--fonts);
     font-size: 0.75em;
+    transition: all 0.3s ease-in-out !important;
   }
   .list-table .list-table-data .tags .edit:hover
   {
     color: var(--main-text) !important;
     text-shadow: var(--highlight-shadow) !important;
+    transition: all 0.3s ease-in-out !important;
   }
 
   /*Title status*/
@@ -637,7 +681,8 @@
     font-family: var(--fonts);
   }
   
-  #copyright {
+  #copyright 
+  {
     color: var(--menu-text) !important;
     font-size: 1em;
   }
