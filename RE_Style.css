@@ -6,9 +6,9 @@
     --main-background: rgba(0,90,100,0.9) !important;
     --second-background: rgba(0,70,80,0.9) !important;
     --menu-background: rgba(30,30,30,0.9) !important; 
-    --main-text: rgb(235,235,235) !important;
-    --menu-text: rgb(235,235,235) !important;
-    --dimmer-text: rgba(235,235,235,0.6) !important;
+    --main-text: rgb(240,240,240) !important;
+    --menu-text: rgb(240,240,240) !important;
+    --dimmer-text: rgba(240,240,240,0.6) !important;
     --highlight: rgba(0,160,190,0.7);
     --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
     
