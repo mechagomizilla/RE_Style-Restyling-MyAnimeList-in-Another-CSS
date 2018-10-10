@@ -256,6 +256,8 @@
   {
     color: var(--main-text) !important;
     font-family: var(--fonts);
+    line-height: 50px;
+    top: 0;
     transition: all 0.3s ease-in-out !important;
   }
   .list-menu-float .icon-menu
