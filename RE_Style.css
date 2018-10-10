@@ -493,7 +493,7 @@
   }
   #advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
   {
-    filter: brightness(110%) !important;
+    background-color: var(--highlight) !important;
     text-shadow: var(--highlight-shadow);
     transition: all 0.15s ease-in-out !important;
   }
@@ -519,7 +519,7 @@
   }
   input[type="button" i]:hover, input[type="submit" i]:hover, input[type="reset" i]:hover, input[type="file" i]::-webkit-file-upload-button:hover, button:hover
   {
-    filter: brightness(110%) !important;
+    background-color: var(--highlight) !important;
     text-shadow: var(--highlight-shadow);
     transition: all 0.15s ease-in-out !important;
   }
