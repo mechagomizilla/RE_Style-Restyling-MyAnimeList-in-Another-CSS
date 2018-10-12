@@ -169,6 +169,10 @@
 
 
   /*Header*/
+  .header
+  {
+    width: 1024px;
+  }
   .header .header-title
   {
     background-image: url("https://myanimelist.net/img/pc/ownlist/logo_mal.png");
