@@ -15,9 +15,7 @@
     /* NB: If --menu-background is set to white or very light grey, you should 
        also set --planto (after the presets, in "Colors for status") 
        to #a5a5a5 (rather than #c3c3c3) to make the plan to watch/read bar more easily visible.
-       Additionally, --dimmer-text should usually be set to the same color as --main-text, but transparent.
-       I recommend to use a softer white (240 for text, 225 for menus) on most backgrounds to be easier on your eyes.
-       Absolute black (0) is still recommended for bright backgrounds as long as they are 10% transparent or more. */
+       Additionally, --dimmer-text should usually be set to the same color as --main-text, but transparent. */
     
 
     /*
