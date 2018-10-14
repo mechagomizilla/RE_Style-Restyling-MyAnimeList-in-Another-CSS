@@ -144,6 +144,7 @@
   /*Body*/
   body
   {
+    background-color: #1e1e1e !important;
     color: var(--main-text) !important;
     font-family: var(--fonts);
     font-size: 0.75em;
