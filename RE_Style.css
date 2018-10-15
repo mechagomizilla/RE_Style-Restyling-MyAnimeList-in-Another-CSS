@@ -504,27 +504,38 @@
   /*Prompt*/
   #fancybox-wrap
   {
-    height: 66px !important;
+    height: 70px !important;
   }
-  #fancybox-outer 
+  #fancybox-outer
   {
     background: var(--menu-background) !important;
   }
-  #fancybox-inner 
+  #fancybox-inner
+  {
+    color: var(--menu-text) !important;
+    height: 50px !important;
+  }
+  #fancybox-inner>div>div
+  {
+    margin-top: 0 !important;
+  }
+  #fancybox-inner>div,
+  #fancybox-inner .spaceit
   {
     font-family: var(--fonts) !important;
     font-size: 12px !important;
-    color: var(--menu-text) !important;
-    height: 46px !important;
   }
-  #fancybox-inner input, button 
+  input#fancybox-confirm-yes-button,  
+  input#fancybox-confirm-no-button,
+  input.inputButton 
   {
     display: inline-block;
     font-family: var(--fonts) !important;
     font-size: 12px !important;
     text-align: center;
     line-height: 1.15 !important;
-    padding: 6px 4px !important;
+    padding: 6px !important;
+    margin: 4px 1px;
     overflow: visible;
     color: var(--main-text) !important;
     background: var(--main-color) !important;
@@ -532,7 +543,9 @@
     border-radius: 4px !important;
     transition: all 0.15s ease-in-out !important;
   }
-  #fancybox-inner input:hover, button:hover
+  input#fancybox-confirm-yes-button:hover,
+  input#fancybox-confirm-no-button:hover,   
+  input.inputButton:hover
   {
     background: var(--highlight) !important;
     text-shadow: var(--highlight-shadow);
