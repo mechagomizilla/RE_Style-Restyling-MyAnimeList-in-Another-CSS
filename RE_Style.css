@@ -504,7 +504,7 @@
   /*Prompt*/
   #fancybox-wrap
   {
-    height: 70px !important;
+    min-height: 70px !important;
   }
   #fancybox-outer
   {
@@ -513,7 +513,7 @@
   #fancybox-inner
   {
     color: var(--menu-text) !important;
-    height: 50px !important;
+    min-height: 50px !important;
   }
   #fancybox-inner>div>div
   {
