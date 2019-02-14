@@ -341,6 +341,10 @@
   {
     transition: width 0.3s !important;
   }
+  .status-menu-container .search-container #search-box.open {
+    display: inline-block;
+    width: 80px !important;
+  }
   .status-menu-container .search-container #search-box input 
   {
     border: 1px solid var(--main-color) !important;
