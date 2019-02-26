@@ -282,6 +282,7 @@
   }
   .list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
   {
+    color: var(--main-text) !important;
     background-color: var(--menu-background) !important;
   }
   .list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
