@@ -1,11 +1,11 @@
 /* Import fonts*/
-@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext";  
+@\import "https://fonts.googleapis.com/css?family=Lato:400,400i,700&subset=latin-ext";  
 
 /*Variables*/
   :root
   {
     /*Fonts*/
-    --fonts: 'Open Sans', arial, sans-serif;
+    --fonts: 'Lato', arial, sans-serif;
     
     /*User colors*/
     --main-color: rgb(0,160,190) !important;
