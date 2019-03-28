@@ -1,6 +1,12 @@
-  /*Main color variables*/
+/* Import fonts*/
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext";  
+
+/*Variables*/
   :root
   {
+    /*Fonts*/
+    --fonts: 'Open Sans', arial, sans-serif;
+    
     /*User colors*/
     --main-color: rgb(0,160,190) !important;
     --main-background: rgba(0,90,100,0.9) !important;
@@ -119,8 +125,6 @@
     */
     --background-fit: cover;
 
-    /*Fonts*/
-    --fonts: 'Open Sans', 'Helvetica neue', helvetica, arial, sans-serif;
   }
 
 
