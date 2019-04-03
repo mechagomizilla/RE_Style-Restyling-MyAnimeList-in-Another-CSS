@@ -1,11 +1,11 @@
 /* Import fonts*/
-@\import "https://fonts.googleapis.com/css?family=Lato:400,400i,700&subset=latin-ext";  
+@\import "https://fonts.googleapis.com/css?family=Carrois+Gothic+SC";
 
 /*Variables*/
   :root
   {
     /*Fonts*/
-    --fonts: 'Lato', arial, sans-serif;
+    --fonts: 'Carrois Gothic SC', arial, sans-serif;
     
     /*User colors*/
     --main-color: rgb(0,160,190) !important;
@@ -259,6 +259,7 @@
   {
     color: var(--main-text) !important;
     font-family: var(--fonts);
+    font-size: 1.25em;
     line-height: 50px;
     top: 0;
     transition: all 0.3s ease-in-out !important;
