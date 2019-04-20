@@ -1,11 +1,11 @@
 /* Import fonts*/
-@\import "https://fonts.googleapis.com/css?family=Carrois+Gothic+SC";
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&amp;subset=latin-ext";
 
 /*Variables*/
   :root
   {
     /*Fonts*/
-    --fonts: 'Carrois Gothic SC', arial, sans-serif;
+    --fonts: 'Open Sans', arial, sans-serif;
     
     /*User colors*/
     --main-color: rgb(0,160,190) !important;
