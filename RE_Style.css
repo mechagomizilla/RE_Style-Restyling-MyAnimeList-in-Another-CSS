@@ -599,12 +599,12 @@
   .list-table .list-table-data .data.volume
   {
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 600;
   }
   .list-table .list-table-data .data.score .link
   {
     font-size: 1.4em;
-    font-weight: bold;
+    font-weight: 700;
   }
   .list-table .list-table-data .data.title .add-edit-more
   {
