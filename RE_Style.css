@@ -669,7 +669,13 @@
   {
     display: none !important;
   }
-
+  
+  /*Reformatting an annoying box*/
+  td.data.studio {
+    width: 100px !important;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
 
   /*Colored bar for entries*/
   .list-table .list-table-data .data.status.reading,
