@@ -1,21 +1,22 @@
 /* Import fonts*/
-@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&amp;subset=latin-ext";
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&subset=latin-ext";
+@\import "https://fonts.googleapis.com/css?family=Muli:400,400i,600,600i,700,700i&display=swap&subset=latin-ext";
 
 /*Variables*/
   :root
   {
     /*Fonts*/
-    --fonts: 'Open Sans', arial, sans-serif;
+    --fonts: 'Muli', 'Open Sans', arial, sans-serif;
     
     /*User colors*/
-    --main-color: rgb(0,160,190) !important;
-    --main-background: rgba(0,90,100,0.9) !important;
-    --second-background: rgba(0,70,80,0.9) !important;
-    --menu-background: rgba(30,30,30,0.9) !important; 
+    --main-color: rgb(135,0,180) !important;
+    --main-background: rgba(65,0,90,0.9) !important;
+    --second-background: rgba(45,0,70,0.9) !important;
+    --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(240,240,240) !important;
     --menu-text: rgb(240,240,240) !important;
     --dimmer-text: rgba(240,240,240,0.6) !important;
-    --highlight: rgba(0,160,190,0.7);
+    --highlight: rgba(135,0,180,0.7);
     --highlight-shadow: 0 0 0.3em black, 0 0 0.3em black;
     
     /* NB: If --menu-background is set to white or very light grey, you should 
@@ -52,8 +53,8 @@
 
     Grapefruit
     --main-color: rgb(170,0,0) !important;
-    --main-background: rgba(255,85,0,0.9) !important;
-    --second-background: rgba(255,60,0,0.9) !important;
+    --main-background: rgba(200,95,0,0.9) !important;
+    --second-background: rgba(190,85,0,0.9) !important;
     --menu-background: rgba(30,30,30,0.9) !important;
     --main-text: rgb(240,240,240) !important;
     --menu-text: rgb(240,240,240) !important;
@@ -145,7 +146,11 @@
   }
 
 
-  /*Body*/
+  /*Page*/
+  html {
+    position: relative;
+    min-height: 100%;
+  }
   body
   {
     background-color: #1e1e1e !important;
@@ -721,6 +726,12 @@
 
 
   /*Footer*/
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
   #footer-block
   {
     background: var(--menu-background) !important;
