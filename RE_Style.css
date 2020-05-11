@@ -159,6 +159,10 @@
     font-size: 0.75em;
     background-size: var(--background-fit);
   }
+  .list-block {
+    min-height: initial;
+    margin-bottom: 64px;
+  }
 
 
   /*Header*/
